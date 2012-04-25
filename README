@@ -1,1 +1,7 @@
 http://mlwmlw.org/tag/slimstat-ex/
+
+INSTALL
+
+$ cd wordpress/wp-content/plugins/
+$ git clone https://github.com/mlwmlw/wp-slimstat-ex wp-slimstat-ex
+
