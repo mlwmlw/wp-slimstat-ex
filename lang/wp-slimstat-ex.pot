@@ -1,0 +1,5182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-17 05:01+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: 082net <082net@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../../wp-slimstat-ex\n"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-config.php:105
+msgid "GeoIP data is missing. You should upload <a href=\"http://www.maxmind.com/app/geoip_country\" target=\"_blank\">GeoIP.dat</a> file to <code>wp-slimstat-ex/lib/geoip/data/</code> folder manually.<br />On WP 2.8 or greater, SlimStat-Ex supports automated install or update GeoIP data file."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-config.php:107
+msgid "GeoIP data is missing. You can install it from <a href=\"admin.php?page=wp-slimstat-ex-admin\">SlimStat-Admin</a> page."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:32
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:528
+msgid "Wp-SlimStat-Ex options updated"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:35
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:74
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:647
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:935
+#: ../../wp-slimstat-ex/lib/display.php:25
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:83
+msgid "SlimStat Options"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:87
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:173
+msgid "General Options"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:90
+msgid "Enable Tracking?:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:96
+msgid "&mdash; If you want to track blog visitors select &quot;enable&quot;"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:99
+msgid "Track Mode:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:101
+msgid "Entire blog"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:102
+msgid "Blog pages only"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:103
+msgid "Blog pages and feed"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:106
+msgid "&mdash; If you need stats for REAL visitors, 'Blog pages only' would be the one."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:109
+msgid "Use Pins?:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:115
+msgid "&mdash; If you want to use Pins select &quot;true&quot;"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:118
+msgid "Use AJAX?:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:124
+msgid "&mdash; Use &quot;AJAX&quot; or not?. Setting it to false will disable some modules."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:128
+msgid "AJAX cache limit:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:130
+msgid "minutes"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:131
+msgid "&mdash; Cache time of Ajax result page by minutes. (disable cache = 0)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:134
+msgid "Save AJAX History:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:140
+msgid "&mdash; Save AJAX browsing history or not?. If &quot;true&quot;, your web-browser get forward/back button working with AJAX."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:144
+msgid "SQL limit rows:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:146
+msgid "rows"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:148
+msgid "&mdash; Limit rows of each modules"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:152
+msgid "DB max-age:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:154
+msgid "days"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:156
+msgid "&mdash; Set database max-age by days (disable reduce DB : 0)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:158
+msgid "&mdash; You can reduce DB from "
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:158
+msgid " page"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:162
+msgid "IPTC method:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:165
+msgid "You are using external IPTC remote DB"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:170
+#, php-format
+msgid "You are using GeoIP databse(%s)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:172
+msgid "As for the GeoSlimStat Pin, using <a href=\"http://www.maxmind.com/app/geolitecity\">GeoLite City</a> is about 100 times faster than remote query."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:174
+#, php-format
+msgid "You can update your database file every start of month from <a href=\"http://www.maxmind.com\">MaxMind</a>'s free <a href=\"%s\">GeoIP Source</a> page."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:177
+msgid "&mdash; IP to Country Resource"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:182
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:239
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:275
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:611
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:701
+msgid "Update Options"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:188
+msgid "Display Options"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:191
+msgid "View mode:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:193
+msgid "Table"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:194
+msgid "Chart"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:198
+msgid "Visit type:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:204
+msgid "&mdash; Select visit type. uniques: count unique ip, visits: 30-minute intervals"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:207
+msgid "Guess post title?:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:213
+msgid "&mdash; Get post title from resource(page address)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:216
+msgid "Get host name?:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:222
+msgid "&mdash; Get host name from remote address"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:225
+msgid "Use Whois link?:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:235
+msgid "&mdash; Use &quot;Whois&quot; link on &quot;Visitors&quot; modules"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:245
+msgid "Extra Options"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:248
+msgid "Nice Titles:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:254
+msgid "&mdash; Enable or disable &quot;Nice Titles&quot;. Powered by <a href=\"http://www.dustindiaz.com/sweet-titles-finalized\">SweetTitles</a>"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:393
+msgid "Invalid Pin ID."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:394
+msgid "Pin file does not exists."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:395
+msgid "Pin already activated."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:396
+msgid "Pin already deactivated."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:405
+msgid "Pin activated"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:405
+msgid "Failed to activate Pin"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:411
+msgid "Pin deactivated"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:411
+msgid "Failed to deactivate Pin"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:424
+msgid "Manage Pins"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:426
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:175
+msgid "Pins"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:435
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:785
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:830
+msgid "ID"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:436
+msgid "Name (version)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:437
+msgid "Author"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:438
+msgid "Description"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:439
+msgid "Acitve"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:449
+msgid "Deactivate"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:449
+msgid "Activate"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:488
+msgid "Pin Options"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:501
+#, php-format
+msgid "%s Options"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:508
+msgid "Update Options  &raquo;"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:539
+msgid "Manage Exclusions"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:543
+msgid "Exclusion Options"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:546
+msgid "Ignore IP-List:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:547
+msgid "This setting define which remote ip will <em>always</em> not to be tracked."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:548
+msgid "Seperate multiple ip with semi-colon( ; )"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:554
+msgid "Ignore Bots?:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:556
+msgid "No"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:557
+msgid "Disable track"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:564
+msgid "&mdash; Ignore miscellaneous bots, crawlers and empty user-agent visitors."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:567
+msgid "&mdash; See more settings below."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:568
+msgid "&mdash; More options will shown while you enable this option."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:574
+msgid "More Exclusions:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:576
+msgid "Ignore famous Bots(google,yahoo,msn...)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:579
+msgid "Ignore RPC Service(technorati,feedburner...) and RSS readers"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:582
+msgid "Ignore validators(w3c,feedvalidator...)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:585
+msgid "Ignore fetching tools (curl,snoopy...)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:590
+msgid "Black User-Agent List:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:591
+msgid "SlimStat will <em>always ignore</em> User-Agent below."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:592
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:603
+msgid "Seperate multiple pattern with new line."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:594
+msgid "Some <a href=\"http://php.net/manual/reference.pcre.pattern.syntax.php\" title=\"syntax help\">syntaxes</a>(^, $, *) are available."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:594
+msgid "\"*\" means non-whitespace characters (\\S*?)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:600
+msgid "White User-Agent List:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:601
+msgid "SlimStat will <em>always track</em> User-Agent below. (will be applied before ignore list)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:628
+msgid "No Roles."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:640
+msgid "Permissions updated."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:654
+msgid "Manage Permissions"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:657
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:178
+msgid "Permissions"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:658
+msgid "Ignore Track"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:658
+msgid "View Stats"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:658
+msgid "Manage Options"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:662
+msgid "Role Name:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:663
+msgid "Role Permissions:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:737
+msgid "Site options saved."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:742
+#, php-format
+msgid "Site ID(%s) already in use."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:745
+msgid "Home URL for new external site is empty."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:752
+msgid "It seems that entered URL is not valid."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:756
+msgid "Site added."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:772
+#, php-format
+msgid "You can specify external sites by defining 'SITE ID' on tracking code.<br />Check your code <a href=\"%s\">below</a>."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:777
+msgid "Manage External Sites"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:781
+msgid "Your External Sites"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:786
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:831
+msgid "Host Name"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:787
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:832
+msgid "Site Home URL"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:796
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:797
+msgid "default site"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:821
+msgid "Save Sites"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:825
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:847
+msgid "Add Site"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:853
+msgid "SlimStat-Ex external tracking"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:856
+msgid "External tracking does not support Wordpress-MU by now."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:858
+msgid "If you want to track external PHP web tools on your server, rename <strong>external-config-sample.php</strong> to <strong>external-config.php</strong> and change some values refer to code below"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:860
+msgid "As you see, It almost same as <code>wp-config.php</code> file."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:888
+msgid "Put the line of code below on any page you want to track."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:888
+msgid "(recommended)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:890
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:898
+#, php-format
+msgid "Set \"%1$s\" to one that you've defined on <a href=\"%2$s\">Site Manager</a> page."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:896
+msgid "You can track pages with javascript also. Insert lines below to bottom of page(just before &lt;/body&gt;) you want to track."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:926
+msgid "Unknown country data fixed."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:928
+msgid "Failed fix unknown country data."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:942
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:180
+msgid "SlimStat-Admin"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:944
+msgid "SlimStat-Ex Admin Tools"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:946
+#, php-format
+msgid "Delete SlimStat data more than &quot;DB max-age(%s)&quot; days old"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:947
+msgid "SlimStat-Ex performance tool"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:952
+msgid "Display available modules"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:954
+msgid "Go to SlimStat Admin Page"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:961
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:966
+msgid "Update GeoIP Data"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:988
+msgid "<a href=\"http://www.maxmind.com/\">MaxMind</a>'s geoip database is updated monthly, at the beginning of each month."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:994
+msgid "Your GeoIP data is corrupted or deleted."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:995
+msgid "Re-install GeoIP data"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:997
+msgid "Your GeoIP database is up to date, you don't have to update it."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:998
+msgid "Force update GeoIP data"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:1000
+msgid "Updated GeoIP database is available."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:1001
+msgid "Update GeoIP data"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:1011
+msgid "Fix Country Data"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:1012
+msgid "You can fix 'unknown' country data after updating GeoIP database with new one."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:1015
+msgid "Fix country data"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:65
+#, php-format
+msgid "WP-SlimStat-Ex needs <a href='%s'>upgrade</a>"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:69
+msgid "WP-SlimStat-Ex is NOT active. WP-SlimStat-Ex requires WP 2.5 or greater."
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:137
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:151
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:152
+#: ../../wp-slimstat-ex/lib/functions.php:267
+#: ../../wp-slimstat-ex/lib/modules.php:41
+#: ../../wp-slimstat-ex/lib/pins.php:532
+msgid "Today"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:138
+msgid "Last 7 days"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:139
+msgid "Month to date"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:140
+msgid "Year to date"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:141
+msgid "The previous Month"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:142
+msgid "Specific Date"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:143
+msgid "All Dates Before"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:144
+msgid "All Dates After"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:145
+msgid "Date Range"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:146
+msgid "Start date"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:147
+msgid "End date"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:148
+msgid "Next"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:149
+msgid "Prev"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:150
+msgid "Done"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:177
+msgid "Exclusions"
+msgstr ""
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:179
+msgid "External Sites"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Mozilla"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Netscape"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Safari"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "iCab"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Firefox"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Firebird"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Phoenix"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Camino"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Chimera"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Internet Explorer"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "MSN Explorer"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "WordPress"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "BlogSearch Engine"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "AllBlog.net RssSync"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "HanRSS"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Blogging Client"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "W3C HTML Validator"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "ATOM &amp; RSS Validator"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "W3C CSS Validator"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Python-urllib"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "NewsGator"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Google Desktop"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Java"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "AOL"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "AOL Browser"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "K-Meleon"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Beonex"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Opera"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "OmniWeb"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Konqueror"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Galeon"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Epiphany"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Kazehakase"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Amaya"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Crawler"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Lynx"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Links"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "ELinks"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Thunderbird"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Flock"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "libwww Perl library"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Apache Bench tool (ab)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "SeaMonkey"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Google MediaPartners"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Google FeedFetcher"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "GoogleBot"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "MsnBot"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Yahoo Blogs"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "GigaBot"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "ZyBorg"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Nutch CVS"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Ichiro"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Technorati Bot"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Heritrix"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "FeedBurner"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Feedpath(JP)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Netvibes"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "GreatNews"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "MagpieRSS"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "livedoor FeedFetcher"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Snoopy"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Eolin"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Mac Finder"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Movabletype"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Typepad"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Drupal"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "AnonyMouse"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Bluefish"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Amiga-AWeb"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "avant Browser"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "AmigaVoyager"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Emacs-W3"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "cURL"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Democracy"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Dillo"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "DocZilla"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "edbrowse"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "libFetch"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "IceWeasel"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "IBrowse"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "ICE Browser"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Danger Hiptop"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "KKman"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Mosaic"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "NetPositive"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Songbird"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Sylera"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Shiira"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "WebTV (MS)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "W3M"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "HistoryHound"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "BlogKorea"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Oregano"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "WDG_Validator"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Docomo"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "NewsFire"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "NewsAlloy"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Liferea"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Hatena RSS"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Feedshow"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "NetNewsWire"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Acorn Browse"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Bonecho"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Lycos Crawlers"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Multizilla"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "J2ME/MIDP"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "PHP"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Yahoo! Slurp"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Google Bots"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Google Appliance"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Yahoo Crawlers"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Inktomi Crawlers"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Cheshire"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Crazy Browser"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Enigma Browser"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "GranParadiso"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Iceape"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "K-Ninja"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Maxthon"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Minefield"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "MyIE2"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Bing/msnbot"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Wii Libnup"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "W3C-checklink"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Xenu Link Sleuth"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "CSE HTML Validator"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "CSSCheck"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Cynthia"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "HTMLParser"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "P3P Validator"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Gregarius"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Bloglines"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "EveryFeed-Spider"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "!Susie"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Cocoal.icio.us"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "DomainsDB.net MetaCrawler"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "GSiteCrawler"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "FeedDemon"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Zhuaxia"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Akregator"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "AppleSyndication"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Blog Conversation Project"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "BottomFeeder"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "JetBrains Omea Reader"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "ping.blo.gs"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Raggle"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "RssBandit"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "SharpReader"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "My Yahoo!"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Rojo"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Rmail"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Sage (Firefox)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Daum RSS"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Windows RSS Platform"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "FeedParser"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "LiveJournal"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Vienna"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "iTunes"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "QuickTime"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "RealPlayer"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "WorldLingo"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "xMind"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "HP Web PrintSmart"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Plagger"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Blog Bridge"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Fastladder"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "NewsLife"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "RSS Owl"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "YeonMo"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "YOZMN (yozmn.com)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Feed On Feeds"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Technorati Feed Bot"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "CazoodleBot"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Snapbot (snap.com)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "UCLA C.S.dept Robot"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "HTTPClientBox"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "ONNET API Bot"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Wing Feed Bot"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Openmaru Feed Aggregator"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "WebScouter"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "OpenID Servers"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "REBI-Shoveler"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Mixsh RSSSync"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "FeedWave"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Miscellaneous Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Sony PSP"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "WebPro"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "NetFront"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Xiino"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "BlackBerry Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Orange SPV Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "LG Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Motorola Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Nokia Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Blazer Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Siemens Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "SamSung Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Sony/Ericsson"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Dopod Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "O2 XDA Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Doris Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "iPhone"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Jig Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "KDDI Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "OpenWave Up.Browser"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Obigo Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Playstation"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Pocket IE"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "SEMC Browser"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Vodafone Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "AIR-EDGE"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "EudoraWeb"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Minimo Moblie"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Plucker Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "HP iPAQ"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "NEC Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Nintendo Wii"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Opera Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "PalmSource"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Psion Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Sprint Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "ibisBrowser Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Sky Phone"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "T-Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Safari Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "IE Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "HTC Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "AvantGo"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Amazon Kindle"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:10
+msgid "Miscellaneous Readers"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:10
+msgid "Miscellaneous Validators"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:10
+msgid "Miscellaneous Downloaders"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows 2000"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows XP"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows 2003"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows Vista"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows NT"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows 98"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows 95"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows 3.1"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows generic"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Mac 68k"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Mac OS X"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Mac PPC"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Mac"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "OS/2"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Sun OS"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Unix Irix"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "HP Unix"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Aix"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Dec Alpha"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Vax"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Linux"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Free BSD"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Intel Mac"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "AmigaOS"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "C-64"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows XP 64bit"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows ME"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows NT 4.0"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "RISC OS"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Debian GNU/Linux"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Mandrake Linux"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "SuSE Linux"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Novell Linux"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Ubuntu Linux"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "RedHat Linux"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Gentoo Linux"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Fedora Linux"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "MEPIS Linux"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Knoppix Linux"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Slackware Linux"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Xandros Linux"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Kanotix Linux"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "NetBSD"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "OpenBSD"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Generic Unix"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "BeOS"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows 7"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Windows CE"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Microsoft PocketPC"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Microsoft Smartphone"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Palm OS"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Qtopia"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Linux Zaurus"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Symbian OS"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Linux WAP"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Windows Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Android"
+msgstr ""
+
+# Language and Region resource from
+# http://www.iana.org/assignments/language-subtag-registry
+# File-Date: 2006-10-18
+# Afar
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-aa"
+msgstr ""
+
+# Abkhazian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ab"
+msgstr ""
+
+# Avestan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ae"
+msgstr ""
+
+# Afrikaans
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-af"
+msgstr ""
+
+# Akan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ak"
+msgstr ""
+
+# Amharic
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-am"
+msgstr ""
+
+# Aragonese
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-an"
+msgstr ""
+
+# Angika
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-anp"
+msgstr ""
+
+# Arabic
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ar"
+msgstr ""
+
+# Assamese
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-as"
+msgstr ""
+
+# Avaric
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-av"
+msgstr ""
+
+# Aymara
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ay"
+msgstr ""
+
+# Azerbaijani
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-az"
+msgstr ""
+
+# Bashkir
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ba"
+msgstr ""
+
+# Belarusian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-be"
+msgstr ""
+
+# Bulgarian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-bg"
+msgstr ""
+
+# Bihari
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-bh"
+msgstr ""
+
+# Bislama
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-bi"
+msgstr ""
+
+# Bambara
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-bm"
+msgstr ""
+
+# Bengali
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-bn"
+msgstr ""
+
+# Tibetan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-bo"
+msgstr ""
+
+# Breton
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-br"
+msgstr ""
+
+# Bosnian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-bs"
+msgstr ""
+
+# Catalan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ca"
+msgstr ""
+
+# Chechen
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ce"
+msgstr ""
+
+# Chamorro
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ch"
+msgstr ""
+
+# Corsican
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-co"
+msgstr ""
+
+# Cree
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-cr"
+msgstr ""
+
+# Czech
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-cs"
+msgstr ""
+
+# Old Church Slavonic
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-cu"
+msgstr ""
+
+# Chuvash
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-cv"
+msgstr ""
+
+# Welsh
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-cy"
+msgstr ""
+
+# Danish
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-da"
+msgstr ""
+
+# German
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-de"
+msgstr ""
+
+# Maldivian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-dv"
+msgstr ""
+
+# Dzongkha
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-dz"
+msgstr ""
+
+# Ewe
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ee"
+msgstr ""
+
+# Greek, Modern (1453-)
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-el"
+msgstr ""
+
+# English
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-en"
+msgstr ""
+
+# Esperanto
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-eo"
+msgstr ""
+
+# Spanish
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-es"
+msgstr ""
+
+# Estonian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-et"
+msgstr ""
+
+# Basque
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-eu"
+msgstr ""
+
+# Persian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-fa"
+msgstr ""
+
+# Fulah
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ff"
+msgstr ""
+
+# Finnish
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-fi"
+msgstr ""
+
+# Fijian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-fj"
+msgstr ""
+
+# Faroese
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-fo"
+msgstr ""
+
+# French
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-fr"
+msgstr ""
+
+# Northern Frisian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-frr"
+msgstr ""
+
+# Western Frisian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-fy"
+msgstr ""
+
+# Irish
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ga"
+msgstr ""
+
+# Scottish Gaelic
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-gd"
+msgstr ""
+
+# Galician
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-gl"
+msgstr ""
+
+# Guarani
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-gn"
+msgstr ""
+
+# Gujarati
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-gu"
+msgstr ""
+
+# Manx
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-gv"
+msgstr ""
+
+# Hausa
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ha"
+msgstr ""
+
+# Hebrew
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-he"
+msgstr ""
+
+# Hindi
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-hi"
+msgstr ""
+
+# Hiri Motu
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ho"
+msgstr ""
+
+# Croatian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-hr"
+msgstr ""
+
+# Haitian Creole
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ht"
+msgstr ""
+
+# Hungarian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-hu"
+msgstr ""
+
+# Armenian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-hy"
+msgstr ""
+
+# Herero
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-hz"
+msgstr ""
+
+# Interlingua (International Auxiliary Language  Association)
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ia"
+msgstr ""
+
+# Indonesian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-id"
+msgstr ""
+
+# Interlingue
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ie"
+msgstr ""
+
+# Igbo
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ig"
+msgstr ""
+
+# Sichuan Yi
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ii"
+msgstr ""
+
+# Inupiaq
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ik"
+msgstr ""
+
+# Indonesian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-in"
+msgstr ""
+
+# Ido
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-io"
+msgstr ""
+
+# Icelandic
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-is"
+msgstr ""
+
+# Italian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-it"
+msgstr ""
+
+# Inuktitut
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-iu"
+msgstr ""
+
+# Hebrew
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-iw"
+msgstr ""
+
+# Japanese
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ja"
+msgstr ""
+
+# Yiddish
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ji"
+msgstr ""
+
+# Javanese
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-jv"
+msgstr ""
+
+# Javanese
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-jw"
+msgstr ""
+
+# Georgian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ka"
+msgstr ""
+
+# Kongo
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-kg"
+msgstr ""
+
+# Kikuyu
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ki"
+msgstr ""
+
+# Kwanyama
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-kj"
+msgstr ""
+
+# Kazakh
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-kk"
+msgstr ""
+
+# Greenlandic
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-kl"
+msgstr ""
+
+# Khmer
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-km"
+msgstr ""
+
+# Kannada
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-kn"
+msgstr ""
+
+# Korean
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ko"
+msgstr ""
+
+# Kanuri
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-kr"
+msgstr ""
+
+# Kashmiri
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ks"
+msgstr ""
+
+# Kurdish
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ku"
+msgstr ""
+
+# Komi
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-kv"
+msgstr ""
+
+# Cornish
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-kw"
+msgstr ""
+
+# Kirghiz
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ky"
+msgstr ""
+
+# Latin
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-la"
+msgstr ""
+
+# Letzeburgesch
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-lb"
+msgstr ""
+
+# Ganda
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-lg"
+msgstr ""
+
+# Limburgish
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-li"
+msgstr ""
+
+# Lingala
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ln"
+msgstr ""
+
+# Lao
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-lo"
+msgstr ""
+
+# Lithuanian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-lt"
+msgstr ""
+
+# Luba-Katanga
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-lu"
+msgstr ""
+
+# Latvian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-lv"
+msgstr ""
+
+# Malagasy
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-mg"
+msgstr ""
+
+# Marshallese
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-mh"
+msgstr ""
+
+# Maori
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-mi"
+msgstr ""
+
+# Macedonian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-mk"
+msgstr ""
+
+# Malayalam
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ml"
+msgstr ""
+
+# Mongolian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-mn"
+msgstr ""
+
+# Moldavian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-mo"
+msgstr ""
+
+# Marathi
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-mr"
+msgstr ""
+
+# Malay
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ms"
+msgstr ""
+
+# Maltese
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-mt"
+msgstr ""
+
+# Burmese
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-my"
+msgstr ""
+
+# Nauru
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-na"
+msgstr ""
+
+# Norwegian Bokm&#xE5;l
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-nb"
+msgstr ""
+
+# Ndebele, North
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-nd"
+msgstr ""
+
+# Nepali
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ne"
+msgstr ""
+
+# Ndonga
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ng"
+msgstr ""
+
+# Flemish
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-nl"
+msgstr ""
+
+# Norwegian Nynorsk
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-nn"
+msgstr ""
+
+# Norwegian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-no"
+msgstr ""
+
+# Ndebele, South
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-nr"
+msgstr ""
+
+# Navajo
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-nv"
+msgstr ""
+
+# Chichewa
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ny"
+msgstr ""
+
+# Proven&#xE7;al
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-oc"
+msgstr ""
+
+# Ojibwa
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-oj"
+msgstr ""
+
+# Oromo
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-om"
+msgstr ""
+
+# Oriya
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-or"
+msgstr ""
+
+# Ossetian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-os"
+msgstr ""
+
+# Punjabi
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-pa"
+msgstr ""
+
+# Pali
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-pi"
+msgstr ""
+
+# Polish
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-pl"
+msgstr ""
+
+# Pushto
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ps"
+msgstr ""
+
+# Portuguese
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-pt"
+msgstr ""
+
+# Quechua
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-qu"
+msgstr ""
+
+# Raeto-Romance
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-rm"
+msgstr ""
+
+# Rundi
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-rn"
+msgstr ""
+
+# Romanian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ro"
+msgstr ""
+
+# Russian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ru"
+msgstr ""
+
+# Kinyarwanda
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-rw"
+msgstr ""
+
+# Sanskrit
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sa"
+msgstr ""
+
+# Serbian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sb"
+msgstr ""
+
+# Sardinian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sc"
+msgstr ""
+
+# Sindhi
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sd"
+msgstr ""
+
+# Northern Sami
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-se"
+msgstr ""
+
+# Sango
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sg"
+msgstr ""
+
+# Serbo-Croatian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sh"
+msgstr ""
+
+# Sinhalese
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-si"
+msgstr ""
+
+# Slovak
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sk"
+msgstr ""
+
+# Slovenian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sl"
+msgstr ""
+
+# Samoan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sm"
+msgstr ""
+
+# Shona
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sn"
+msgstr ""
+
+# Somali
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-so"
+msgstr ""
+
+# Albanian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sq"
+msgstr ""
+
+# Serbian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sr"
+msgstr ""
+
+# Swati
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ss"
+msgstr ""
+
+# Sotho, Southern
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-st"
+msgstr ""
+
+# Sundanese
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-su"
+msgstr ""
+
+# Swedish
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sv"
+msgstr ""
+
+# Swahili
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sw"
+msgstr ""
+
+# Sutu
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sx"
+msgstr ""
+
+# Tamil
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ta"
+msgstr ""
+
+# Telugu
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-te"
+msgstr ""
+
+# Tajik
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-tg"
+msgstr ""
+
+# Thai
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-th"
+msgstr ""
+
+# Tigrinya
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ti"
+msgstr ""
+
+# Turkmen
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-tk"
+msgstr ""
+
+# Tagalog
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-tl"
+msgstr ""
+
+# Tswana
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-tn"
+msgstr ""
+
+# Tonga (Tonga Islands)
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-to"
+msgstr ""
+
+# Turkish
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-tr"
+msgstr ""
+
+# Tsonga
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ts"
+msgstr ""
+
+# Tatar
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-tt"
+msgstr ""
+
+# Twi
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-tw"
+msgstr ""
+
+# Tahitian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ty"
+msgstr ""
+
+# Uighur
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ug"
+msgstr ""
+
+# Ukrainian
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-uk"
+msgstr ""
+
+# Urdu
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ur"
+msgstr ""
+
+# Uzbek
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-uz"
+msgstr ""
+
+# Venda
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ve"
+msgstr ""
+
+# Vietnamese
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-vi"
+msgstr ""
+
+# Volap&#xFC;k
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-vo"
+msgstr ""
+
+# Walloon
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-wa"
+msgstr ""
+
+# Wolof
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-wo"
+msgstr ""
+
+# Xhosa
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-xh"
+msgstr ""
+
+# Yiddish
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-yi"
+msgstr ""
+
+# Yoruba
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-yo"
+msgstr ""
+
+# Zhuang
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-za"
+msgstr ""
+
+# Chinese
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-zh"
+msgstr ""
+
+# Zulu
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-zu"
+msgstr ""
+
+# Unknown
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+#: ../../wp-slimstat-ex/lib/functions.php:47
+#: ../../wp-slimstat-ex/lib/functions.php:49
+msgid "l-"
+msgstr ""
+
+# Unknown
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-empty"
+msgstr ""
+
+# Unknown
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-*"
+msgstr ""
+
+# Unknown
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-xx"
+msgstr ""
+
+# Andorra, Principality of
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ad"
+msgstr ""
+
+# United Arab Emirates
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ae"
+msgstr ""
+
+# Afghanistan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-af"
+msgstr ""
+
+# Antigua and Barbuda
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ag"
+msgstr ""
+
+# Anguilla
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ai"
+msgstr ""
+
+# Albania
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-al"
+msgstr ""
+
+# Armenia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-am"
+msgstr ""
+
+# Antille olandesi
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-an"
+msgstr ""
+
+# Angola
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ao"
+msgstr ""
+
+# Asia/Pacific Region
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ap"
+msgstr ""
+
+# Antarctica
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-aq"
+msgstr ""
+
+# Argentina
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ar"
+msgstr ""
+
+# American Samoa
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-as"
+msgstr ""
+
+# Austria
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-at"
+msgstr ""
+
+# Australia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-au"
+msgstr ""
+
+# Aruba
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-aw"
+msgstr ""
+
+# &#xC5;land Islands
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ax"
+msgstr ""
+
+# Azerbaidjan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-az"
+msgstr ""
+
+# Bosnia-Herzegovina
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ba"
+msgstr ""
+
+# Barbados
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bb"
+msgstr ""
+
+# Bangladesh
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bd"
+msgstr ""
+
+# Belgium
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-be"
+msgstr ""
+
+# Burkina Faso
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bf"
+msgstr ""
+
+# Bulgaria
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bg"
+msgstr ""
+
+# Bahrain
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bh"
+msgstr ""
+
+# Burundi
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bi"
+msgstr ""
+
+# Benin
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bj"
+msgstr ""
+
+# Saint Barthelemy
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bl"
+msgstr ""
+
+# Bermuda
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bm"
+msgstr ""
+
+# Brunei Darussalam
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bn"
+msgstr ""
+
+# Bolivia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bo"
+msgstr ""
+
+# Brazil
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-br"
+msgstr ""
+
+# Bahamas
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bs"
+msgstr ""
+
+# Bhutan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bt"
+msgstr ""
+
+# Burma
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bu"
+msgstr ""
+
+# Bouvet Island
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bv"
+msgstr ""
+
+# Botswana
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bw"
+msgstr ""
+
+# Belarus
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-by"
+msgstr ""
+
+# Belize
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bz"
+msgstr ""
+
+# Canada
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ca"
+msgstr ""
+
+# Cocos (Keeling) Islands
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cc"
+msgstr ""
+
+# Congo, The Democratic Republic of the
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cd"
+msgstr ""
+
+# Central African Republic
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cf"
+msgstr ""
+
+# Congo
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cg"
+msgstr ""
+
+# Switzerland
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ch"
+msgstr ""
+
+# Ivory Coast (Cote D'Ivoire)
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ci"
+msgstr ""
+
+# Cook Islands
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ck"
+msgstr ""
+
+# Chile
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cl"
+msgstr ""
+
+# Cameroon
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cm"
+msgstr ""
+
+# China
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cn"
+msgstr ""
+
+# Colombia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-co"
+msgstr ""
+
+# Costa Rica
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cr"
+msgstr ""
+
+# Serbia and Montenegro
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cs"
+msgstr ""
+
+# Cuba
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cu"
+msgstr ""
+
+# Cape Verde
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cv"
+msgstr ""
+
+# Christmas Island
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cx"
+msgstr ""
+
+# Cyprus
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cy"
+msgstr ""
+
+# Czech Republic
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cz"
+msgstr ""
+
+# German Democratic Republic
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-dd"
+msgstr ""
+
+# Germany
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-de"
+msgstr ""
+
+# Djibouti
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-dj"
+msgstr ""
+
+# Denmark
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-dk"
+msgstr ""
+
+# Dominica
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-dm"
+msgstr ""
+
+# Dominican Republic
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-do"
+msgstr ""
+
+# Algeria
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-dz"
+msgstr ""
+
+# Ecuador
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ec"
+msgstr ""
+
+# Estonia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ee"
+msgstr ""
+
+# Egypt
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-eg"
+msgstr ""
+
+# Western Sahara
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-eh"
+msgstr ""
+
+# Eritrea
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-er"
+msgstr ""
+
+# Spain
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-es"
+msgstr ""
+
+# Ethiopia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-et"
+msgstr ""
+
+# Europe
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-eu"
+msgstr ""
+
+# Finland
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-fi"
+msgstr ""
+
+# Fiji
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-fj"
+msgstr ""
+
+# Falkland Islands (Malvinas)
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-fk"
+msgstr ""
+
+# Micronesia, Federated States of
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-fm"
+msgstr ""
+
+# Faroe Islands
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-fo"
+msgstr ""
+
+# France
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-fr"
+msgstr ""
+
+# Metropolitan France
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-fx"
+msgstr ""
+
+# Gabon
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ga"
+msgstr ""
+
+# Great Britain
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gb"
+msgstr ""
+
+# Grenada
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gd"
+msgstr ""
+
+# Georgia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ge"
+msgstr ""
+
+# French Guiana
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gf"
+msgstr ""
+
+# Guernsey
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gg"
+msgstr ""
+
+# Ghana
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gh"
+msgstr ""
+
+# Gibraltar
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gi"
+msgstr ""
+
+# Greenland
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gl"
+msgstr ""
+
+# Gambia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gm"
+msgstr ""
+
+# Guinea
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gn"
+msgstr ""
+
+# Guadeloupe (French)
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gp"
+msgstr ""
+
+# Equatorial Guinea
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gq"
+msgstr ""
+
+# Greece
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gr"
+msgstr ""
+
+# S. Georgia & S. Sandwich Isls.
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gs"
+msgstr ""
+
+# Guatemala
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gt"
+msgstr ""
+
+# Guam (USA)
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gu"
+msgstr ""
+
+# Guinea Bissau
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gw"
+msgstr ""
+
+# Guyana
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gy"
+msgstr ""
+
+# Hong Kong
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-hk"
+msgstr ""
+
+# Heard and McDonald Islands
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-hm"
+msgstr ""
+
+# Honduras
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-hn"
+msgstr ""
+
+# Croatia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-hr"
+msgstr ""
+
+# Haiti
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ht"
+msgstr ""
+
+# Hungary
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-hu"
+msgstr ""
+
+# Indonesia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-id"
+msgstr ""
+
+# Ireland
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ie"
+msgstr ""
+
+# Israel
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-il"
+msgstr ""
+
+# Isle of Man
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-im"
+msgstr ""
+
+# India
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-in"
+msgstr ""
+
+# British Indian Ocean Territory
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-io"
+msgstr ""
+
+# Iraq
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-iq"
+msgstr ""
+
+# Iran
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ir"
+msgstr ""
+
+# Iceland
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-is"
+msgstr ""
+
+# Italy
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-it"
+msgstr ""
+
+# Jersey
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-je"
+msgstr ""
+
+# Jamaica
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-jm"
+msgstr ""
+
+# Jordan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-jo"
+msgstr ""
+
+# Japan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-jp"
+msgstr ""
+
+# Kenya
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ke"
+msgstr ""
+
+# Kyrgyz Republic (Kyrgyzstan)
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-kg"
+msgstr ""
+
+# Cambodia, Kingdom of
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-kh"
+msgstr ""
+
+# Kiribati
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ki"
+msgstr ""
+
+# Comoros
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-km"
+msgstr ""
+
+# Saint Kitts & Nevis Anguilla
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-kn"
+msgstr ""
+
+# Korea, Democratic People's Republic of
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-kp"
+msgstr ""
+
+# Korea, Republic of
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-kr"
+msgstr ""
+
+# Kuwait
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-kw"
+msgstr ""
+
+# Cayman Islands
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ky"
+msgstr ""
+
+# Kazakhstan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-kz"
+msgstr ""
+
+# Laos
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-la"
+msgstr ""
+
+# Lebanon
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-lb"
+msgstr ""
+
+# Saint Lucia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-lc"
+msgstr ""
+
+# Liechtenstein
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-li"
+msgstr ""
+
+# Sri Lanka
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-lk"
+msgstr ""
+
+# Liberia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-lr"
+msgstr ""
+
+# Lesotho
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ls"
+msgstr ""
+
+# Lithuania
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-lt"
+msgstr ""
+
+# Luxembourg
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-lu"
+msgstr ""
+
+# Latvia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-lv"
+msgstr ""
+
+# Libya
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ly"
+msgstr ""
+
+# Morocco
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ma"
+msgstr ""
+
+# Monaco
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mc"
+msgstr ""
+
+# Moldova, Republic of
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-md"
+msgstr ""
+
+# Montenegro
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-me"
+msgstr ""
+
+# Saint Martin
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mf"
+msgstr ""
+
+# Madagascar
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mg"
+msgstr ""
+
+# Marshall Islands
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mh"
+msgstr ""
+
+# Macedonia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mk"
+msgstr ""
+
+# Mali
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ml"
+msgstr ""
+
+# Myanmar
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mm"
+msgstr ""
+
+# Mongolia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mn"
+msgstr ""
+
+# Macau
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mo"
+msgstr ""
+
+# Northern Mariana Islands
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mp"
+msgstr ""
+
+# Martinique (French)
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mq"
+msgstr ""
+
+# Mauritania
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mr"
+msgstr ""
+
+# Montserrat
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ms"
+msgstr ""
+
+# Malta
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mt"
+msgstr ""
+
+# Mauritius
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mu"
+msgstr ""
+
+# Maldives
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mv"
+msgstr ""
+
+# Malawi
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mw"
+msgstr ""
+
+# Mexico
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mx"
+msgstr ""
+
+# Malaysia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-my"
+msgstr ""
+
+# Mozambique
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mz"
+msgstr ""
+
+# Namibia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-na"
+msgstr ""
+
+# New Caledonia (French)
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-nc"
+msgstr ""
+
+# Niger
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ne"
+msgstr ""
+
+# Norfolk Island
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-nf"
+msgstr ""
+
+# Nigeria
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ng"
+msgstr ""
+
+# Nicaragua
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ni"
+msgstr ""
+
+# Netherlands
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-nl"
+msgstr ""
+
+# Norway
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-no"
+msgstr ""
+
+# Nepal
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-np"
+msgstr ""
+
+# Nauru
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-nr"
+msgstr ""
+
+# Neutral Zone
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-nt"
+msgstr ""
+
+# Niue
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-nu"
+msgstr ""
+
+# New Zealand
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-nz"
+msgstr ""
+
+# Oman
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-om"
+msgstr ""
+
+# Panama
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pa"
+msgstr ""
+
+# Peru
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pe"
+msgstr ""
+
+# Polynesia (French)
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pf"
+msgstr ""
+
+# Papua New Guinea
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pg"
+msgstr ""
+
+# Philippines
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ph"
+msgstr ""
+
+# Pakistan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pk"
+msgstr ""
+
+# Poland
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pl"
+msgstr ""
+
+# Saint Pierre and Miquelon
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pm"
+msgstr ""
+
+# Pitcairn Island
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pn"
+msgstr ""
+
+# Puerto Rico
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pr"
+msgstr ""
+
+# Palestinian Territory, Occupied
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ps"
+msgstr ""
+
+# Portugal
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pt"
+msgstr ""
+
+# Palau
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pw"
+msgstr ""
+
+# Paraguay
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-py"
+msgstr ""
+
+# Qatar
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-qa"
+msgstr ""
+
+# PRIVATE USE
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-qm..qz"
+msgstr ""
+
+# Reunion (French)
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-re"
+msgstr ""
+
+# Romania
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ro"
+msgstr ""
+
+# Serbia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-rs"
+msgstr ""
+
+# Russian Federation
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ru"
+msgstr ""
+
+# Rwanda
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-rw"
+msgstr ""
+
+# Saudi Arabia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sa"
+msgstr ""
+
+# Solomon Islands
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sb"
+msgstr ""
+
+# Seychelles
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sc"
+msgstr ""
+
+# Sudan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sd"
+msgstr ""
+
+# Sweden
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-se"
+msgstr ""
+
+# Singapore
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sg"
+msgstr ""
+
+# Saint Helena
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sh"
+msgstr ""
+
+# Slovenia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-si"
+msgstr ""
+
+# Svalbard and Jan Mayen Islands
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sj"
+msgstr ""
+
+# Slovak Republic
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sk"
+msgstr ""
+
+# Sierra Leone
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sl"
+msgstr ""
+
+# San Marino
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sm"
+msgstr ""
+
+# Senegal
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sn"
+msgstr ""
+
+# Somalia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-so"
+msgstr ""
+
+# Suriname
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sr"
+msgstr ""
+
+# Sao Tome and Principe
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-st"
+msgstr ""
+
+# Former USSR
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-su"
+msgstr ""
+
+# El Salvador
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sv"
+msgstr ""
+
+# Syrian Arab Republic
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sy"
+msgstr ""
+
+# Swaziland
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sz"
+msgstr ""
+
+# Turks and Caicos Islands
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tc"
+msgstr ""
+
+# Chad
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-td"
+msgstr ""
+
+# French Southern Territories
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tf"
+msgstr ""
+
+# Togo
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tg"
+msgstr ""
+
+# Thailand
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-th"
+msgstr ""
+
+# Tadjikistan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tj"
+msgstr ""
+
+# Tokelau
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tk"
+msgstr ""
+
+# Timor-Leste
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tl"
+msgstr ""
+
+# Turkmenistan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tm"
+msgstr ""
+
+# Tunisia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tn"
+msgstr ""
+
+# Tonga
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-to"
+msgstr ""
+
+# East Timor
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tp"
+msgstr ""
+
+# Turkey
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tr"
+msgstr ""
+
+# Trinidad and Tobago
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tt"
+msgstr ""
+
+# Tuvalu
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tv"
+msgstr ""
+
+# Taiwan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tw"
+msgstr ""
+
+# Tanzania
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tz"
+msgstr ""
+
+# Ukraine
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ua"
+msgstr ""
+
+# Uganda
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ug"
+msgstr ""
+
+# United Kingdom
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-uk"
+msgstr ""
+
+# USA Minor Outlying Islands
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-um"
+msgstr ""
+
+# United States
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-us"
+msgstr ""
+
+# Uruguay
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-uy"
+msgstr ""
+
+# Uzbekistan
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-uz"
+msgstr ""
+
+# Holy See (Vatican City State)
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-va"
+msgstr ""
+
+# Saint Vincent & Grenadines
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-vc"
+msgstr ""
+
+# Venezuela
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ve"
+msgstr ""
+
+# Virgin Islands (British)
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-vg"
+msgstr ""
+
+# Virgin Islands (USA)
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-vi"
+msgstr ""
+
+# Vietnam
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-vn"
+msgstr ""
+
+# Vanuatu
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-vu"
+msgstr ""
+
+# Wallis and Futuna Islands
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-wf"
+msgstr ""
+
+# Samoa
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ws"
+msgstr ""
+
+# Yemen, Democratic
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-yd"
+msgstr ""
+
+# Yemen
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ye"
+msgstr ""
+
+# Mayotte
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-yt"
+msgstr ""
+
+# Yugoslavia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-yu"
+msgstr ""
+
+# South Africa
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-za"
+msgstr ""
+
+# Zambia
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-zm"
+msgstr ""
+
+# Zaire
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-zr"
+msgstr ""
+
+# Zimbabwe
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-zw"
+msgstr ""
+
+# Unknown
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+#: ../../wp-slimstat-ex/lib/functions.php:47
+msgid "c-"
+msgstr ""
+
+# Unknown
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-xx"
+msgstr ""
+
+# Anonymous Proxy
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-a1"
+msgstr ""
+
+# Satellite Provider
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-a2"
+msgstr ""
+
+# Unknown
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-o1"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+#: ../../wp-slimstat-ex/lib/display.php:31
+msgid "Summary"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Recent domains"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Recent search"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "New domains"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Recent resources"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+msgid "Hourly hits"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+msgid "Daily hits"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+msgid "Weekly hits"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+msgid "Monthly hits"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Top resources"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Top search"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+msgid "Top languages"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Top domains"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Internally referred"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Internal search"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Top visitors"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Browser versions"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Platforms"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Countries"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Top referers"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Browsers"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Recent visitors"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Hourly"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Daily"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Weekly"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Monthly"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Languages"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "Paths taken by recent visitors"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "Downloads"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "PathStats"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "Recent downloads"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "Top downloads"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "Method (protocol)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "Support Key"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "File name"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "last"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "Downloaded from"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "Count"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:38
+#: ../../wp-slimstat-ex/lib/modules.php:695
+#: ../../wp-slimstat-ex/lib/modules.php:729
+#: ../../wp-slimstat-ex/lib/modules.php:766
+#: ../../wp-slimstat-ex/lib/modules.php:924
+#: ../../wp-slimstat-ex/lib/modules.php:997
+msgid "Visits"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:38
+msgid "Uniques"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[trackback]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[feed]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[tag]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[page]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[post]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[category]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[date]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[search]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[author]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[attachment]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[paged]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[404 error]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[posts page]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[attachment comments]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[post comments]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[page comments]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[comments]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[comments popup]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[external]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[taxonomy]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/display.php:32
+#: ../../wp-slimstat-ex/lib/functions.php:1281
+msgid "Feeds"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/display.php:33
+#: ../../wp-slimstat-ex/lib/functions.php:1279
+msgid "Details"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/display.php:42
+msgid "SlimStat-Ex"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/display.php:59
+msgid "( Loading ... )"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/display.php:69
+#, php-format
+msgid "based on %1$s and %2$s"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/display.php:72
+msgid "Data size"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/display.php:73
+msgid "Feed"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/display.php:106
+#: ../../wp-slimstat-ex/lib/pins.php:80
+#, php-format
+msgid "This pin does not work with WP-SlimStat-Ex v<em>%s</em>"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/display.php:110
+msgid "Invalid Pin ID"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:22
+#: ../../wp-slimstat-ex/lib/functions.php:34
+msgid "xx"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:267
+msgid "H:i"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:267
+msgid "d M, H:i"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:322
+#: ../../wp-slimstat-ex/lib/functions.php:393
+msgid "Invalid module name"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:381
+#: ../../wp-slimstat-ex/lib/functions.php:456
+msgid "No results found"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:485
+msgid "Visit this resource"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1012
+#: ../../wp-slimstat-ex/lib/pins.php:484
+msgid "Apply"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1019
+#: ../../wp-slimstat-ex/lib/pins.php:491
+msgid "Reset date range"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1019
+#: ../../wp-slimstat-ex/lib/functions.php:1046
+#: ../../wp-slimstat-ex/lib/functions.php:1085
+#: ../../wp-slimstat-ex/lib/pins.php:463
+#: ../../wp-slimstat-ex/lib/pins.php:491
+msgid "Reset"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1034
+#: ../../wp-slimstat-ex/lib/modules.php:194
+#: ../../wp-slimstat-ex/lib/modules.php:257
+#: ../../wp-slimstat-ex/lib/modules.php:756
+#: ../../wp-slimstat-ex/lib/pins.php:424
+msgid "Domain"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1035
+#: ../../wp-slimstat-ex/lib/modules.php:224
+#: ../../wp-slimstat-ex/lib/modules.php:684
+#: ../../wp-slimstat-ex/lib/modules.php:820
+#: ../../wp-slimstat-ex/lib/pins.php:428
+msgid "Search string"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1036
+#: ../../wp-slimstat-ex/lib/modules.php:285
+#: ../../wp-slimstat-ex/lib/modules.php:651
+#: ../../wp-slimstat-ex/lib/modules.php:791
+#: ../../wp-slimstat-ex/lib/pins.php:432
+msgid "Resource"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1037
+#: ../../wp-slimstat-ex/lib/modules.php:1053
+#: ../../wp-slimstat-ex/lib/pins.php:436
+msgid "Remote IP"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1041
+msgid "Exact"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1042
+msgid "Substring"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1046
+#: ../../wp-slimstat-ex/lib/functions.php:1085
+#: ../../wp-slimstat-ex/lib/pins.php:463
+msgid "Reset filters"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1049
+msgid "Switch to table view"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1049
+msgid "Table view"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1051
+msgid "Switch to chart view"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1051
+msgid "Chart view"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1063
+#: ../../wp-slimstat-ex/lib/modules.php:883
+#: ../../wp-slimstat-ex/lib/modules.php:1019
+#: ../../wp-slimstat-ex/lib/pins.php:440
+msgid "Browser"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1067
+#: ../../wp-slimstat-ex/lib/modules.php:913
+#: ../../wp-slimstat-ex/lib/pins.php:444
+msgid "Platform"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1071
+#: ../../wp-slimstat-ex/lib/modules.php:951
+#: ../../wp-slimstat-ex/lib/pins.php:448
+msgid "Country"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1075
+#: ../../wp-slimstat-ex/lib/modules.php:718
+#: ../../wp-slimstat-ex/lib/pins.php:452
+msgid "Language"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1079
+msgid "Unkown"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1138
+msgid "Reload this module"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1160
+#, php-format
+msgid "Show %s results"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1161
+msgid "previous"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1161
+msgid "next"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1268
+#, php-format
+msgid "Filter this on '%s' panel"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1275
+msgid "unidentified"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1277
+msgid "current"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1535
+msgid "]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1535
+msgid "["
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1564
+#: ../../wp-slimstat-ex/lib/functions.php:1603
+#: ../../wp-slimstat-ex/lib/functions.php:1668
+msgid "[unusual]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1575
+msgid "[home]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1580
+msgid "[download]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1585
+msgid "[add comment]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1590
+msgid "[schedule]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:26
+#: ../../wp-slimstat-ex/lib/modules.php:200
+#: ../../wp-slimstat-ex/lib/modules.php:230
+#: ../../wp-slimstat-ex/lib/modules.php:262
+#: ../../wp-slimstat-ex/lib/modules.php:291
+#: ../../wp-slimstat-ex/lib/modules.php:662
+msgid "When"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:27
+#: ../../wp-slimstat-ex/lib/modules.php:331
+#: ../../wp-slimstat-ex/lib/modules.php:337
+#: ../../wp-slimstat-ex/lib/modules.php:408
+#: ../../wp-slimstat-ex/lib/modules.php:428
+#: ../../wp-slimstat-ex/lib/modules.php:492
+#: ../../wp-slimstat-ex/lib/modules.php:520
+#: ../../wp-slimstat-ex/lib/modules.php:576
+#: ../../wp-slimstat-ex/lib/modules.php:591
+#: ../../wp-slimstat-ex/lib/modules.php:657
+#: ../../wp-slimstat-ex/lib/modules.php:690
+#: ../../wp-slimstat-ex/lib/modules.php:724
+#: ../../wp-slimstat-ex/lib/modules.php:761
+#: ../../wp-slimstat-ex/lib/modules.php:796
+#: ../../wp-slimstat-ex/lib/modules.php:825
+#: ../../wp-slimstat-ex/lib/modules.php:854
+#: ../../wp-slimstat-ex/lib/modules.php:919
+#: ../../wp-slimstat-ex/lib/modules.php:992
+#: ../../wp-slimstat-ex/lib/modules.php:1059
+msgid "Hits"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:55
+#: ../../wp-slimstat-ex/lib/pins.php:539
+msgid "Yesterday"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:74
+#: ../../wp-slimstat-ex/lib/pins.php:551
+msgid "This week"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:88
+#: ../../wp-slimstat-ex/lib/pins.php:558
+msgid "Last week"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:101
+#: ../../wp-slimstat-ex/lib/pins.php:569
+msgid "This month"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:115
+#: ../../wp-slimstat-ex/lib/pins.php:576
+msgid "Last month"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:129
+msgid "This year"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:143
+msgid "Last year"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:156
+msgid "j M Y, H:i"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:166
+msgid "Deleted stats"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:166
+#: ../../wp-slimstat-ex/lib/modules.php:167
+#: ../../wp-slimstat-ex/lib/modules.php:433
+msgid "j M, Y"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:197
+#: ../../wp-slimstat-ex/lib/modules.php:259
+#: ../../wp-slimstat-ex/lib/modules.php:989
+msgid "Visit this referer"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:330
+msgid "Hour"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:345
+msgid "M j, H:00"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:348
+msgid "M j, H:00 - H:59"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:407
+msgid "Day"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:491
+msgid "Week"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:524
+#: ../../wp-slimstat-ex/lib/modules.php:526
+msgid "j M ,Y"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:575
+msgid "Month"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:598
+msgid "M, Y"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:758
+msgid "Visit this domain"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:793
+msgid "Referred by"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:822
+msgid "Searched in"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:848
+msgid "Remote address"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:859
+#: ../../wp-slimstat-ex/lib/modules.php:888
+#: ../../wp-slimstat-ex/lib/modules.php:957
+#: ../../wp-slimstat-ex/lib/modules.php:1025
+msgid "%"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:987
+msgid "Referer"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/modules.php:1064
+msgid "Last"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/pins.php:56
+msgid "There is no available option for this Pin"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/pins.php:109
+msgid "Options saved."
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/pins.php:456
+msgid "Custom"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/pins.php:526
+msgid "Time interval"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/pins.php:531
+msgid "View stats for &#039;Today&#039;"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/pins.php:538
+msgid "View stats for &#039;Yesterday&#039;"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/pins.php:550
+msgid "View stats for &#039;This week&#039;"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/pins.php:557
+msgid "View stats for &#039;Last week&#039;"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/pins.php:568
+msgid "View stats for &#039;This month&#039;"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/pins.php:575
+msgid "View stats for &#039;Last month&#039;"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/slimstat-ajax.php:63
+msgid "No ajax action provided"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/update.php:20
+msgid "GeoIP data is at the latest version."
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/update.php:21
+msgid "GeoIP data not available."
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/update.php:22
+#, php-format
+msgid "Downloading update from <span class=\"code\">%s</span>."
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/update.php:23
+msgid "Unpacking the update."
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/update.php:24
+msgid "Removing the old version of GeoIP data."
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/update.php:25
+msgid "Could not remove the old GeoIP data."
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/update.php:26
+msgid "GeoIP data upgrade Failed."
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/update.php:27
+msgid "GeoIP data upgraded successfully."
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/update.php:28
+msgid "Destination file already exists."
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/update.php:29
+msgid "Could not copy file."
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/upgrade.php:36
+#, php-format
+msgid "Sub-Step %s"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/upgrade.php:623
+#, php-format
+msgid "Upgrade from before %s"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/upgrade.php:623
+#, php-format
+msgid "Failed to operate this sub-step(%s)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/upgrade.php:623
+#, php-format
+msgid "Now we will do the next sub-step(%s)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/upgrade.php:625
+msgid "Start This Sub-Step"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/upgrade.php:625
+msgid "Do Over Again"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/upgrade.php:625
+msgid "Do This Step"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/~modules.php:331
+msgid "H:00 - H:59"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/~modules.php:384
+msgid "j F, Y"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/~modules.php:484
+msgid "F Y"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/BBSpamStats/pin.php:95
+#: ../../wp-slimstat-ex/pins/SSPathStats/pin.php:92
+msgid "Visitor"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:122
+#, php-format
+msgid "%1$s <em>%2$s</em> is only compatible with Wp-SlimStat-Ex <em>%3$s</em> and above."
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:166
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:164
+msgid "Google Map API Key:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:167
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:165
+msgid "Enter your Google Maps API Key."
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:168
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:166
+msgid "You can get one at <a href=\"http://www.google.com/apis/maps/signup.html\" title=\"Sign up for a Google Maps API key\">HERE</a>"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:172
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:170
+msgid "Limit Quries:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:173
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:171
+msgid "The number of queries (try 30 first, then 50 or more)."
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:184
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:182
+msgid "Wheel Zoom:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:185
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:183
+msgid "Use mouse wheel to zoom map. You can use double click zoom without wheel zoom."
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:192
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:190
+msgid "Center Type:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:193
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:191
+msgid "Average point of visitors or custom point you set below (Latitude and Longitude)."
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:195
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:193
+msgid "Average point of visitors"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:196
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:194
+msgid "Point I set below"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:198
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:196
+msgid "Zoom:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:201
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:199
+msgid "Starting Center:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:203
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:201
+msgid "Latitude:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:204
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:202
+msgid "Longitude:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:210
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:208
+msgid "Purge Negatives:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:211
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:209
+msgid "When ip-to-geocode result from Hostip.info was empty, Geo SlimStat will append the IP to negative list."
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:212
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:210
+msgid "You can purge the negative list every xxx days (0 means no purge)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:238
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:224
+#: ../../wp-slimstat-ex/pins/SSFreshView/pin.php:108
+msgid "Select Table"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:241
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:227
+msgid "View map for &#039;common stats&#039;"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:242
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:229
+#: ../../wp-slimstat-ex/pins/SSFreshView/pin.php:116
+msgid "Common"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:245
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:232
+msgid "View map for &#039;feed stats&#039;"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:644
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:631
+msgid "Unknown City"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:663
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:734
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:650
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:721
+msgid "F j, Y g:ia"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSBlogStats/pin.php:66
+msgid "Use Content Filter:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSBlogStats/pin.php:67
+msgid "Replace {SLIMSTAT|1,2,3...} on content with displayable modules."
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSBlogStats/pin.php:68
+#, php-format
+msgid "Displayable modules are available at <a href=\"%s\">SlimStat-Admin page</a>."
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSBlogStats/pin.php:69
+msgid "You can manually insert &lt;?php wpSSBlogStats(); ?&gt; on your template file"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSBlogStats/pin.php:152
+msgid "Modules"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSFreshView/pin.php:111
+msgid "View chart for &#039;All stats&#039;"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSFreshView/pin.php:112
+msgid "All"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSFreshView/pin.php:115
+msgid "View chart for &#039;common stats&#039;"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSFreshView/pin.php:119
+msgid "View chart for &#039;feed stats&#039;"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSFreshView_Print/pin.php:86
+msgid "Module height"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSFreshView_Print/pin.php:89
+msgid "Stats interval"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSFreshView_Print/pin.php:96
+msgid "Stats type"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSReaders_Count/pin.php:68
+msgid "Use Filter:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSReaders_Count/pin.php:69
+msgid "Select display position of readers count"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSReaders_Count/pin.php:70
+msgid "You can manually insert &lt;?php wpss_print_post_reader_count(); ?&gt; on your template file"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSReaders_Count/pin.php:118
+#, php-format
+msgid "This post was read %s times until now"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSSimpleStats/pin.php:95
+msgid "Count Type:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSSimpleStats/pin.php:96
+msgid "Select count type to display"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSSimpleStats/pin.php:104
+msgid "Stats Type:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSSimpleStats/pin.php:105
+msgid "Select stats type to display"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSSimpleStats/pin.php:113
+msgid "Display on meta:"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSSimpleStats/pin.php:114
+msgid "Automatically display simple stats on wp_meta()"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSSimpleStats/pin.php:115
+msgid "You can manually insert &lt;?php print_simple_hvu(); ?&gt; on your template file"
+msgstr ""
+
+#: ../../wp-slimstat-ex/pins/SSSimpleStats/pin.php:194
+msgid "Total"
+msgstr ""
+

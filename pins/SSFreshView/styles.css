@@ -1,0 +1,25 @@
+text {
+  font-family: "Lucida Grande", Verdana, sans-serif;
+  font-weight: normal; 
+  fill: #4c4c4c;
+  font-size: 10px;
+  }
+
+#y-axis text {
+  text-anchor: end;
+  }
+  
+#x-axis text {
+  text-anchor: middle;
+  }
+  
+#legend text {
+  fill: #6d6d6d;
+  font-size: 11px;
+  }
+
+#tooltip text {
+  text-anchor: middle;
+  font-size: 9px;
+  font-style: normal;
+  }

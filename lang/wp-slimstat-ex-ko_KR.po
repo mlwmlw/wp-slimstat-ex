@@ -1,0 +1,4968 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP SlimStat Ex 1Beta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-17 05:01+0900\n"
+"PO-Revision-Date: 2009-11-17 05:16+0900\n"
+"Last-Translator: 082net <082net@gmail.com>\n"
+"Language-Team: Korean <082net@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Korean\n"
+"X-Poedit-Country: KOREA, REPUBLIC OF\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: s\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-config.php:105
+msgid "GeoIP data is missing. You should upload <a href=\"http://www.maxmind.com/app/geoip_country\" target=\"_blank\">GeoIP.dat</a> file to <code>wp-slimstat-ex/lib/geoip/data/</code> folder manually.<br />On WP 2.8 or greater, SlimStat-Ex supports automated install or update GeoIP data file."
+msgstr "GeoIP 데이터를 찾을 수 없습니다. 직접 <a href=\"http://www.maxmind.com/app/geoip_country\" target=\"_blank\">GeoIP.dat</a> 파일을 <code>wp-slimstat-ex/lib/geoip/data/</code>폴더에 업로드 해야만 합니다.<br />워드프레스 2.8 이후의 경우, SlimStat-Ex에서 자동화된 GeoIP 데이터 설치/업데이트를 지원합니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-config.php:107
+msgid "GeoIP data is missing. You can install it from <a href=\"admin.php?page=wp-slimstat-ex-admin\">SlimStat-Admin</a> page."
+msgstr "GeoIP 데이터를 찾을 수 없습니다. <a href=\"admin.php?page=wp-slimstat-ex-admin\">SlimStat 관리도구</a> 페이지에서 설치할 수 있습니다."
+
+#
+# ## Options and Global
+#
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:32
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:528
+msgid "Wp-SlimStat-Ex options updated"
+msgstr "Wp-SlimStat-Ex 설정이 저장되었습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:35
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:74
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:647
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:935
+#: ../../wp-slimstat-ex/lib/display.php:25
+msgid "You do not have sufficient permissions to access this page."
+msgstr "현재 페이지에 접근할 권한이 없습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:83
+msgid "SlimStat Options"
+msgstr "SlimStat 설정"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:87
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:173
+msgid "General Options"
+msgstr "일반 설정"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:90
+msgid "Enable Tracking?:"
+msgstr "통계기능 사용:"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:96
+msgid "&mdash; If you want to track blog visitors select &quot;enable&quot;"
+msgstr "&mdash; 블로그 통계기능을 사용하시려면 &quot;enable&quot;로 설정하세요"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:99
+msgid "Track Mode:"
+msgstr "추적 모드:"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:101
+msgid "Entire blog"
+msgstr "블로그 전체"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:102
+msgid "Blog pages only"
+msgstr "블로그 페이지만"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:103
+msgid "Blog pages and feed"
+msgstr "블로그페이지와 피드"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:106
+msgid "&mdash; If you need stats for REAL visitors, 'Blog pages only' would be the one."
+msgstr "&mdash; 실제 방문자들의 통계만을 원한다면, '블로그 페이지만' 을 선택하세요."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:109
+msgid "Use Pins?:"
+msgstr "확장기능 사용:"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:115
+msgid "&mdash; If you want to use Pins select &quot;true&quot;"
+msgstr "&mdash; 확장기능(Pins)을 사용하시려면 &quot;true&quot;로 설정하세요"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:118
+msgid "Use AJAX?:"
+msgstr "AJAX 기능 사용:"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:124
+msgid "&mdash; Use &quot;AJAX&quot; or not?. Setting it to false will disable some modules."
+msgstr "&mdash; &quot;AJAX&quot; 기능을 사용하지 않으려면 false로 설정하세요. (몇몇 모듈을 사용할 수 없게됩니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:128
+msgid "AJAX cache limit:"
+msgstr "AJAX 캐쉬 시간:"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:130
+msgid "minutes"
+msgstr "분"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:131
+msgid "&mdash; Cache time of Ajax result page by minutes. (disable cache = 0)"
+msgstr "&mdash; Ajax로 열렸던 페이지의 캐쉬 시간을 설정합니다(사용하지 않으려면 0)"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:134
+msgid "Save AJAX History:"
+msgstr "AJAX 히스토리 기록:"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:140
+msgid "&mdash; Save AJAX browsing history or not?. If &quot;true&quot;, your web-browser get forward/back button working with AJAX."
+msgstr "&mdash; AJAX 히스토리를 저장할지 결정하세요. &quot;true&quot;를 선택하면 AJAX로 탐색한 페이지들도 브라우저의 뒤로가기/앞으로가기 버튼을 통해 이동할 수 있게됩니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:144
+msgid "SQL limit rows:"
+msgstr "SQL 출력 줄 수"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:146
+msgid "rows"
+msgstr "줄"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:148
+msgid "&mdash; Limit rows of each modules"
+msgstr "&mdash; 각 모듈에 출력되는 줄 수 지정"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:152
+msgid "DB max-age:"
+msgstr "DB 보존기간:"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:154
+msgid "days"
+msgstr "일"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:156
+msgid "&mdash; Set database max-age by days (disable reduce DB : 0)"
+msgstr "&mdash; 통계 데이터베이스의 저장기간을 일(days) 단위로 입력하세요(DB정리를 사용하지 않으려면 0)"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:158
+msgid "&mdash; You can reduce DB from "
+msgstr "&mdash; DB정리 기능은 "
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:158
+msgid " page"
+msgstr "페이지에서 가능 합니다"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:162
+msgid "IPTC method:"
+msgstr "IPTC 방법:"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:165
+msgid "You are using external IPTC remote DB"
+msgstr "현재 외부 IPTC 리모트 데이터베이스를 사용중입니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:170
+#, php-format
+msgid "You are using GeoIP databse(%s)"
+msgstr "현재 GeoIP 데이터베이스(%s)를 사용중입니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:172
+msgid "As for the GeoSlimStat Pin, using <a href=\"http://www.maxmind.com/app/geolitecity\">GeoLite City</a> is about 100 times faster than remote query."
+msgstr "GeoSlimStat Pin의 경우, <a href=\"http://www.maxmind.com/app/geolitecity\">GeoLite City</a> 버전을 사용하면 리모트 접속으로 처리하는 것 보다 100배 가량 빠른 처리속도를 보여줍니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:174
+#, php-format
+msgid "You can update your database file every start of month from <a href=\"http://www.maxmind.com\">MaxMind</a>'s free <a href=\"%s\">GeoIP Source</a> page."
+msgstr "매월 1일 <a href=\"http://www.maxmind.com\">MaxMind</a>의 무료 <a href=\"%s\">GeoIP 소스</a> 페이지에서 새로운 데이터베이스 파일을 받을 수 있습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:177
+msgid "&mdash; IP to Country Resource"
+msgstr "&mdash; IP to Country 리소스"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:182
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:239
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:275
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:611
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:701
+msgid "Update Options"
+msgstr "설정 저장"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:188
+msgid "Display Options"
+msgstr "출력 설정"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:191
+msgid "View mode:"
+msgstr "보기 모드:"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:193
+msgid "Table"
+msgstr "테이블"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:194
+msgid "Chart"
+msgstr "차트"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:198
+msgid "Visit type:"
+msgstr "방문 종류:"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:204
+msgid "&mdash; Select visit type. uniques: count unique ip, visits: 30-minute intervals"
+msgstr "&mdash; uniques: 아이피별 방문, visits: 최근 30분 이내에 같은 아이피의 방문이 없을경우 방문수 증가"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:207
+msgid "Guess post title?:"
+msgstr "글 제목 얻어오기:"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:213
+msgid "&mdash; Get post title from resource(page address)"
+msgstr "&mdash; 읽은 페이지 주소로부터 글 제목을 알아냅니다"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:216
+msgid "Get host name?:"
+msgstr "호스트 이름?:"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:222
+msgid "&mdash; Get host name from remote address"
+msgstr "&mdash; 아이피로부터 호스트 이름을 알아냅니다"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:225
+msgid "Use Whois link?:"
+msgstr "Whois 링크 사용?:"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:235
+msgid "&mdash; Use &quot;Whois&quot; link on &quot;Visitors&quot; modules"
+msgstr "&mdash; &quot;Whois&quot; 링크를 &quot;방문객&quot;관련 모듈에 사용합니다"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:245
+msgid "Extra Options"
+msgstr "부가 설정"
+
+# wp-slimstat-ex-options.php:58
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:248
+msgid "Nice Titles:"
+msgstr "Nice Titles:"
+
+# wp-slimstat-ex-options.php:63
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:254
+msgid "&mdash; Enable or disable &quot;Nice Titles&quot;. Powered by <a href=\"http://www.dustindiaz.com/sweet-titles-finalized\">SweetTitles</a>"
+msgstr "&mdash; <a href=\"http://www.dustindiaz.com/sweet-titles-finalized\">SweetTitles</a>를 이용한 보기좋은 말풍선 기능을 사용합니다."
+
+# /wp-slimstat-ex-options.php:72
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:393
+msgid "Invalid Pin ID."
+msgstr "잘못된 Pin 아이디 입니다."
+
+# /wp-slimstat-ex-options.php:79
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:394
+msgid "Pin file does not exists."
+msgstr "Pin파일이 존재하지 않습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:395
+msgid "Pin already activated."
+msgstr "Pin이 이미 활성화 되어있습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:396
+msgid "Pin already deactivated."
+msgstr "Pin이 이미 비활성화 되어있습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:405
+msgid "Pin activated"
+msgstr "Pin 이 활성화 되었습니다"
+
+# /wp-slimstat-ex-options.php:122
+# /wp-slimstat-ex-options.php:150
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:405
+msgid "Failed to activate Pin"
+msgstr "Pin을 활성화 하지 못했습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:411
+msgid "Pin deactivated"
+msgstr "Pin 이 비활성화 되었습니다"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:411
+msgid "Failed to deactivate Pin"
+msgstr "Pin을 비활성화 하지 못했습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:424
+msgid "Manage Pins"
+msgstr "Pin 관리"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:426
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:175
+msgid "Pins"
+msgstr "Pins(확장)"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:435
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:785
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:830
+msgid "ID"
+msgstr "아이디"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:436
+msgid "Name (version)"
+msgstr "이름 (버전)"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:437
+msgid "Author"
+msgstr "원작자"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:438
+msgid "Description"
+msgstr "설명"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:439
+msgid "Acitve"
+msgstr "활성화"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:449
+msgid "Deactivate"
+msgstr "비활성화"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:449
+msgid "Activate"
+msgstr "활성화"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:488
+msgid "Pin Options"
+msgstr "Pin 설정"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:501
+#, php-format
+msgid "%s Options"
+msgstr "%s 설정"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:508
+msgid "Update Options  &raquo;"
+msgstr "설정 저장 &raquo;"
+
+# wp-slimstat-ex-options.php:303
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:539
+msgid "Manage Exclusions"
+msgstr "제외 설정"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:543
+msgid "Exclusion Options"
+msgstr "제외 설정"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:546
+msgid "Ignore IP-List:"
+msgstr "제외할 아이피들:"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:547
+msgid "This setting define which remote ip will <em>always</em> not to be tracked."
+msgstr "이곳에 입력한 아이피(IP)들은 <em>항상</em> 통계에서 제외됩니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:548
+msgid "Seperate multiple ip with semi-colon( ; )"
+msgstr "여러개의 아이피는 세미콜론( ; ) 으로 구분하세요."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:554
+msgid "Ignore Bots?:"
+msgstr "봇 무시하기:"
+
+# wp-slimstat-ex-options.php:287
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:556
+msgid "No"
+msgstr "아니오"
+
+# wp-slimstat-ex-options.php:289
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:557
+msgid "Disable track"
+msgstr "추적 안함"
+
+# wp-slimstat-ex-options.php:295
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:564
+msgid "&mdash; Ignore miscellaneous bots, crawlers and empty user-agent visitors."
+msgstr "&mdash; 잡다한 봇(bot)들과 user-agent 정보가 없는 방문객을 무시함"
+
+# wp-slimstat-ex-options.php:297
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:567
+msgid "&mdash; See more settings below."
+msgstr "&mdash; 아래 추가적인 설정도 확인해 보세요."
+
+# wp-slimstat-ex-options.php:298
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:568
+msgid "&mdash; More options will shown while you enable this option."
+msgstr "&mdash; 설정을 사용할 경우 추가적인 내용을 확인 할 수 있습니다."
+
+# wp-slimstat-ex-options.php:303
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:574
+msgid "More Exclusions:"
+msgstr "그 외 제외할 사항:"
+
+# wp-slimstat-ex-options.php:305
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:576
+msgid "Ignore famous Bots(google,yahoo,msn...)"
+msgstr "잘 알려진 봇(bot)들(야후, 구글, MSN 등) 무시함"
+
+# wp-slimstat-ex-options.php:308
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:579
+msgid "Ignore RPC Service(technorati,feedburner...) and RSS readers"
+msgstr "RPC 서비스(테크노라티,올블로그 등)와 RSS 리더 무시함"
+
+# wp-slimstat-ex-options.php:311
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:582
+msgid "Ignore validators(w3c,feedvalidator...)"
+msgstr "표준 검사기 종류(W3C, Feedvalidator 등) 무시함"
+
+# wp-slimstat-ex-options.php:314
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:585
+msgid "Ignore fetching tools (curl,snoopy...)"
+msgstr "Fetch 관련 도구(curl, snoopy 등) 무시함"
+
+# wp-slimstat-ex-options.php:319
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:590
+msgid "Black User-Agent List:"
+msgstr "User-Agent 블랙 리스트:"
+
+# wp-slimstat-ex-options.php:320
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:591
+msgid "SlimStat will <em>always ignore</em> User-Agent below."
+msgstr "아래 입력된 User-Agent를 가진 방문객을 <em>항상</em> 무시합니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:592
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:603
+msgid "Seperate multiple pattern with new line."
+msgstr "여러개의 패턴은 줄바꿈으로 구분됩니다."
+
+# wp-slimstat-ex-options.php:322
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:594
+msgid "Some <a href=\"http://php.net/manual/reference.pcre.pattern.syntax.php\" title=\"syntax help\">syntaxes</a>(^, $, *) are available."
+msgstr "몇가지 <a href=\"http://php.net/manual/reference.pcre.pattern.syntax.php\" title=\"syntax help\">정규식</a>(^, $, *)을 사용할 수 있슴."
+
+# wp-slimstat-ex-options.php:322
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:594
+msgid "\"*\" means non-whitespace characters (\\S*?)"
+msgstr "\"*\" 표시는 공백이 아닌 모든 문자를 뜻 함 (\\S*?)"
+
+# wp-slimstat-ex-options.php:326
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:600
+msgid "White User-Agent List:"
+msgstr "User-Agent 화이트 리스트:"
+
+# wp-slimstat-ex-options.php:327
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:601
+msgid "SlimStat will <em>always track</em> User-Agent below. (will be applied before ignore list)"
+msgstr "아래의 User-Agent 정보를 가진 방문객을 <em>항상</em> 무시합니다. (블랙리스트 보다 우선 적용됨)"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:628
+msgid "No Roles."
+msgstr "등급이 없습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:640
+msgid "Permissions updated."
+msgstr "권한이 설정되었습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:654
+msgid "Manage Permissions"
+msgstr "권한 설정"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:657
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:178
+msgid "Permissions"
+msgstr "권한"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:658
+msgid "Ignore Track"
+msgstr "추적 무시"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:658
+msgid "View Stats"
+msgstr "통계 보기"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:658
+msgid "Manage Options"
+msgstr "설정 관리"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:662
+msgid "Role Name:"
+msgstr "등급 이름:"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:663
+msgid "Role Permissions:"
+msgstr "등급 권한:"
+
+#
+# ## Options and Global
+#
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:737
+msgid "Site options saved."
+msgstr "사이트 설정이 저장되었습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:742
+#, php-format
+msgid "Site ID(%s) already in use."
+msgstr "사이트 ID(%s)는 이미 사용중입니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:745
+msgid "Home URL for new external site is empty."
+msgstr "사이트 홈 주소가 비어있습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:752
+msgid "It seems that entered URL is not valid."
+msgstr "입력된 주소가 올바르지 않습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:756
+msgid "Site added."
+msgstr "사이트가 추가되었습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:772
+#, php-format
+msgid "You can specify external sites by defining 'SITE ID' on tracking code.<br />Check your code <a href=\"%s\">below</a>."
+msgstr "외부프로그램의 통계추적 코드에 'SITE ID'를 지정함으로서 해당 통계를 구분할 수 있습니다.<br /><a href=\"%s\">아래</a>에서 통계추적코드를 확인해 보세요."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:777
+msgid "Manage External Sites"
+msgstr "외부 사이트 관리"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:781
+msgid "Your External Sites"
+msgstr "외부 사이트 관리"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:786
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:831
+msgid "Host Name"
+msgstr "호스트 이름"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:787
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:832
+msgid "Site Home URL"
+msgstr "사이트 홈 URL"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:796
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:797
+msgid "default site"
+msgstr "기본 사이트"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:821
+msgid "Save Sites"
+msgstr "사이트 설정 저장"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:825
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:847
+msgid "Add Site"
+msgstr "사이트 추가"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:853
+msgid "SlimStat-Ex external tracking"
+msgstr "SlimStat-Ex 외부 프로그램 접속 통계"
+
+# /wp-slimstat-ex-options.php:533
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:856
+msgid "External tracking does not support Wordpress-MU by now."
+msgstr "외부프로그램 추적기능은 Wordpress-MU를 아직 지원하지 않습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:858
+msgid "If you want to track external PHP web tools on your server, rename <strong>external-config-sample.php</strong> to <strong>external-config.php</strong> and change some values refer to code below"
+msgstr "사용중인 서버에 설치된 다른 웹프로그램의 접속 통계를 SlimStat이 추적하게 하려면, <strong>external-config-sample.php</strong> 파일의 이름을 <strong>external-config.php</strong>으로 바꾼 뒤 아래 내용과 같이 몇가지 내용을 수정해야 합니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:860
+msgid "As you see, It almost same as <code>wp-config.php</code> file."
+msgstr "보시듯이, <code>wp-config.php</code>파일의 설정과 거의 유사합니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:888
+msgid "Put the line of code below on any page you want to track."
+msgstr "추적하고자 하는 모든 페이지의 맨 위에 아래 코드를 입력하세요."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:888
+msgid "(recommended)"
+msgstr "(권장)"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:890
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:898
+#, php-format
+msgid "Set \"%1$s\" to one that you've defined on <a href=\"%2$s\">Site Manager</a> page."
+msgstr "<a href=\"%2$s\">Site Manager</a> 패널에서 지정한 값으로 \"%1$s\"을(를) 설정하세요."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:896
+msgid "You can track pages with javascript also. Insert lines below to bottom of page(just before &lt;/body&gt;) you want to track."
+msgstr "자바스크립트를 이용해 추적할 수도 있습니다. 아래의 HTML 태그를 추적하고자 하는 페이지의 맨 아래(&lt;/body&gt; 바로 위)에 추가하세요."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:926
+msgid "Unknown country data fixed."
+msgstr "'알 수 없슴' 표시된 국가정보들이 바로잡아졌습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:928
+msgid "Failed fix unknown country data."
+msgstr "국가 정보 바로잡기에 실패했습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:942
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:180
+msgid "SlimStat-Admin"
+msgstr "SlimStat 관리도구"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:944
+msgid "SlimStat-Ex Admin Tools"
+msgstr "SlimSTat-Ex 관리도구"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:946
+#, php-format
+msgid "Delete SlimStat data more than &quot;DB max-age(%s)&quot; days old"
+msgstr "SlimStat 데이터베이스에 저장된 데이터중 &quot;데이터 보존일(%s)&quot; 보다 오래된 것들을 삭제합니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:947
+msgid "SlimStat-Ex performance tool"
+msgstr "SlimSTat-Ex 성능관리"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:952
+msgid "Display available modules"
+msgstr "사용가능한 모듈 리스트 출력"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:954
+msgid "Go to SlimStat Admin Page"
+msgstr "SlimStat 관리자페이지로 이동"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:961
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:966
+msgid "Update GeoIP Data"
+msgstr "GeoIP 데이터 업데이트"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:988
+msgid "<a href=\"http://www.maxmind.com/\">MaxMind</a>'s geoip database is updated monthly, at the beginning of each month."
+msgstr "<a href=\"http://www.maxmind.com/\">MaxMind</a>의 무료 GeoIP 데이터는 매달 초 업데이트 됩니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:994
+msgid "Your GeoIP data is corrupted or deleted."
+msgstr "GeoIP 데이터가 손상되었거나 삭제되었습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:995
+msgid "Re-install GeoIP data"
+msgstr "GeoIP 데이터 재설치"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:997
+msgid "Your GeoIP database is up to date, you don't have to update it."
+msgstr "현재 사용중인 GeoIP 데이터가 최신입니다. 업데이트 할 필요가 없습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:998
+msgid "Force update GeoIP data"
+msgstr "GeoIP 데이터 강제 업데이트"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:1000
+msgid "Updated GeoIP database is available."
+msgstr "새로운 GeoIP 데이터를 사용할 수 있습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:1001
+msgid "Update GeoIP data"
+msgstr "GeoIP 데이터 업데이트"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:1011
+msgid "Fix Country Data"
+msgstr "국가 정보 바로잡기"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:1012
+msgid "You can fix 'unknown' country data after updating GeoIP database with new one."
+msgstr "GeoIP 데이터를 최신화 한 뒤, '알 수 없슴' 으로 입력된 국가정보를 새 데이터를 이용해 바로잡을 수 있습니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex-options.php:1015
+msgid "Fix country data"
+msgstr "국가 정보 바로잡기"
+
+# /wp-slimstat-ex.php:155
+# /wp-slimstat-ex.php:176
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:65
+#, php-format
+msgid "WP-SlimStat-Ex needs <a href='%s'>upgrade</a>"
+msgstr "WP-SlimStat-Ex가 <a href='%s'>업그레이드 과정</a>을 필요로 합니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:69
+msgid "WP-SlimStat-Ex is NOT active. WP-SlimStat-Ex requires WP 2.5 or greater."
+msgstr "WP-SlimStat-EX를 사용할 수 없습니다. WP-SlimStat-EX는 워드프레스 2.5 이상에서만 작동합니다."
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:137
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:151
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:152
+#: ../../wp-slimstat-ex/lib/functions.php:267
+#: ../../wp-slimstat-ex/lib/modules.php:41
+#: ../../wp-slimstat-ex/lib/pins.php:532
+msgid "Today"
+msgstr "오늘"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:138
+msgid "Last 7 days"
+msgstr "최근 7일"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:139
+msgid "Month to date"
+msgstr "이번 달"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:140
+msgid "Year to date"
+msgstr "올 해"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:141
+msgid "The previous Month"
+msgstr "지난 달"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:142
+msgid "Specific Date"
+msgstr "특정일"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:143
+msgid "All Dates Before"
+msgstr "선택 날짜 전까지"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:144
+msgid "All Dates After"
+msgstr "선택 날짜 이후"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:145
+msgid "Date Range"
+msgstr "날짜 범위"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:146
+msgid "Start date"
+msgstr "시작 날짜"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:147
+msgid "End date"
+msgstr "끝 날짜"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:148
+msgid "Next"
+msgstr "다음"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:149
+msgid "Prev"
+msgstr "이전"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:150
+msgid "Done"
+msgstr "완료"
+
+# wp-slimstat-ex-options.php:63
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:177
+msgid "Exclusions"
+msgstr "제외설정"
+
+#: ../../wp-slimstat-ex/wp-slimstat-ex.php:179
+msgid "External Sites"
+msgstr "외부 사이트"
+
+#
+# ### Browsers
+#
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Mozilla"
+msgstr "모질라"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Netscape"
+msgstr "넷스케이프"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Safari"
+msgstr "사파리"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "iCab"
+msgstr "iCab"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Firefox"
+msgstr "불여우"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Firebird"
+msgstr "불새"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Phoenix"
+msgstr "피닉스"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Camino"
+msgstr "카미노"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Chimera"
+msgstr "키메라"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Internet Explorer"
+msgstr "인터넷 익스플로러"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "MSN Explorer"
+msgstr "MSN 익스플로러"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "WordPress"
+msgstr "워드프레스"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "BlogSearch Engine"
+msgstr "블로거 검색 엔진"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "AllBlog.net RssSync"
+msgstr "올블로그"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "HanRSS"
+msgstr "한RSS"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Blogging Client"
+msgstr "블로깅 클라이언트"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "W3C HTML Validator"
+msgstr "HTML 표준 검사기"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "ATOM &amp; RSS Validator"
+msgstr "Feed 표준 검사기"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "W3C CSS Validator"
+msgstr "CSS 표준 검사기"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Python-urllib"
+msgstr "Python-urllib"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "NewsGator"
+msgstr "뉴스게이터"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Google Desktop"
+msgstr "구글 데스크탑"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Java"
+msgstr "자바"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "AOL"
+msgstr "AOL"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "AOL Browser"
+msgstr "AOL 브라우저"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "K-Meleon"
+msgstr "K-Melon"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Beonex"
+msgstr "Beonex"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Opera"
+msgstr "오페라"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "OmniWeb"
+msgstr "OmniWeb"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Konqueror"
+msgstr "퀀커러"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Galeon"
+msgstr "갈레온"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Epiphany"
+msgstr "Epiphany"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Kazehakase"
+msgstr "Kazehakase"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Amaya"
+msgstr "Amaya"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Crawler"
+msgstr "Crawler"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Lynx"
+msgstr "Lynx"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Links"
+msgstr "Links"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "ELinks"
+msgstr "ELinks"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Thunderbird"
+msgstr "천둥새"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Flock"
+msgstr "Flock"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "libwww Perl library"
+msgstr "libwww Perl library"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Apache Bench tool (ab)"
+msgstr "Apache Bench tool (ab)"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "SeaMonkey"
+msgstr "모질라 시몽키"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Google MediaPartners"
+msgstr "Google MediaPartners"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Google FeedFetcher"
+msgstr "Google FeedFetcher"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "GoogleBot"
+msgstr "구글 봇"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "MsnBot"
+msgstr "MSN 봇"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Yahoo Blogs"
+msgstr "야후 봇"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "GigaBot"
+msgstr "Giga 봇"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "ZyBorg"
+msgstr "Zyborg"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Nutch CVS"
+msgstr "Nutch CVS"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Ichiro"
+msgstr "Ichiro"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Technorati Bot"
+msgstr "테크노라티 봇"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Heritrix"
+msgstr "Heritrix"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "FeedBurner"
+msgstr "피드버너"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Feedpath(JP)"
+msgstr "Feedpath(일본)"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Netvibes"
+msgstr "Netvibes"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "GreatNews"
+msgstr "GreatNews"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "MagpieRSS"
+msgstr "MagpieRSS"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "livedoor FeedFetcher"
+msgstr "livedoor FeedFetcher"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Snoopy"
+msgstr "Snoopy"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Eolin"
+msgstr "이올린"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Mac Finder"
+msgstr "맥 파인더"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Movabletype"
+msgstr "무버블 타입"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Typepad"
+msgstr "타입패드"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Drupal"
+msgstr "드루팔"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "AnonyMouse"
+msgstr "AnonyMouse"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Bluefish"
+msgstr "Bluefish"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Amiga-AWeb"
+msgstr "Amiga-AWeb"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "avant Browser"
+msgstr "avant Browser"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "AmigaVoyager"
+msgstr "AmigaVoyager"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Emacs-W3"
+msgstr "Emacs-W3"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "cURL"
+msgstr "cURL"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Democracy"
+msgstr "Democracy"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Dillo"
+msgstr "Dillo"
+
+#
+# ### Browsers
+#
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "DocZilla"
+msgstr "DocZilla"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "edbrowse"
+msgstr "edbrowse"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "libFetch"
+msgstr "libFetch"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "IceWeasel"
+msgstr "IceWeasel"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "IBrowse"
+msgstr "IBrowse"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "ICE Browser"
+msgstr "ICE Browser"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Danger Hiptop"
+msgstr "Danger Hiptop"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "KKman"
+msgstr "KKman"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Mosaic"
+msgstr "Mosaic"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "NetPositive"
+msgstr "NetPositive"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Songbird"
+msgstr "Songbird"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Sylera"
+msgstr "Sylera"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Shiira"
+msgstr ""
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "WebTV (MS)"
+msgstr "WebTV (MS)"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "W3M"
+msgstr "W3M"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "HistoryHound"
+msgstr "HistoryHound"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "BlogKorea"
+msgstr "블로그코리아"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Oregano"
+msgstr "Oregano"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "WDG_Validator"
+msgstr "WDG 표준 검사기"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Docomo"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "NewsFire"
+msgstr "NewsFire"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "NewsAlloy"
+msgstr "NewsAlloy"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Liferea"
+msgstr "Liferea"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Hatena RSS"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Feedshow"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "NetNewsWire"
+msgstr "NetNewsWire"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Acorn Browse"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Bonecho"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Lycos Crawlers"
+msgstr ""
+
+#
+# ### Browsers
+#
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Multizilla"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "J2ME/MIDP"
+msgstr "J2ME/MIDP"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "PHP"
+msgstr "PHP"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Yahoo! Slurp"
+msgstr "야후 엔진"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Google Bots"
+msgstr "구글관련봇"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Google Appliance"
+msgstr "구글관련도구"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Yahoo Crawlers"
+msgstr "야후관련 봇"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Inktomi Crawlers"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Cheshire"
+msgstr "Cheshire"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Crazy Browser"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Enigma Browser"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "GranParadiso"
+msgstr "GranParadiso"
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Iceape"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "K-Ninja"
+msgstr "K-Ninja"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Maxthon"
+msgstr "맥슨"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Minefield"
+msgstr "Minefield"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "MyIE2"
+msgstr "MyIE2"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Bing/msnbot"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Wii Libnup"
+msgstr "Wii Libnup"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "W3C-checklink"
+msgstr "W3C-checklink"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Xenu Link Sleuth"
+msgstr "Xenu Link Sleuth"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "CSE HTML Validator"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "CSSCheck"
+msgstr "CSSCheck"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Cynthia"
+msgstr "Cynthia"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "HTMLParser"
+msgstr "HTMLParser"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "P3P Validator"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Gregarius"
+msgstr "Gregarius"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Bloglines"
+msgstr " "
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "EveryFeed-Spider"
+msgstr "EveryFeed-Spider"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "!Susie"
+msgstr "!Susie"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Cocoal.icio.us"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "DomainsDB.net MetaCrawler"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "GSiteCrawler"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "FeedDemon"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Zhuaxia"
+msgstr ""
+
+# lib/functions.php:10
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Akregator"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "AppleSyndication"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Blog Conversation Project"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "BottomFeeder"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "JetBrains Omea Reader"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "ping.blo.gs"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Raggle"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "RssBandit"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "SharpReader"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "My Yahoo!"
+msgstr "마이 야후!"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Rojo"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Rmail"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Sage (Firefox)"
+msgstr "Sage (불여우)"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Daum RSS"
+msgstr "다음 RSS"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Windows RSS Platform"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "FeedParser"
+msgstr ""
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "LiveJournal"
+msgstr "라이브저널"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Vienna"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "iTunes"
+msgstr "아이튠"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "QuickTime"
+msgstr "퀵타임"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "RealPlayer"
+msgstr "리얼플레이어"
+
+# lib/functions.php:15
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "WorldLingo"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "xMind"
+msgstr "크로스마인드(xMind) 로봇"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "HP Web PrintSmart"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Plagger"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Blog Bridge"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Fastladder"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "NewsLife"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "RSS Owl"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "YeonMo"
+msgstr "연모"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "YOZMN (yozmn.com)"
+msgstr "요즘엔"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Feed On Feeds"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Technorati Feed Bot"
+msgstr "테크노라티 피드 봇"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "CazoodleBot"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Snapbot (snap.com)"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "UCLA C.S.dept Robot"
+msgstr "연구용 로봇 (UCLA 컴퓨터공학과)"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "HTTPClientBox"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "ONNET API Bot"
+msgstr "온네트 API 로봇"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Wing Feed Bot"
+msgstr "날개 피드 로봇"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Openmaru Feed Aggregator"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "WebScouter"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "OpenID Servers"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "REBI-Shoveler"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "Mixsh RSSSync"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:4
+msgid "FeedWave"
+msgstr "피드웨이브"
+
+# lib/functions.php:21
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Miscellaneous Mobile"
+msgstr "모바일 브라우저"
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Sony PSP"
+msgstr "소니 PSP"
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "WebPro"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "NetFront"
+msgstr "넷프론트"
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Xiino"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "BlackBerry Mobile"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Orange SPV Mobile"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "LG Mobile"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Motorola Mobile"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Nokia Mobile"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Blazer Mobile"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Siemens Mobile"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "SamSung Mobile"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Sony/Ericsson"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Dopod Mobile"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "O2 XDA Mobile"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Doris Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "iPhone"
+msgstr "아이폰"
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Jig Mobile"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "KDDI Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "OpenWave Up.Browser"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Obigo Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Playstation"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Pocket IE"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "SEMC Browser"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Vodafone Mobile"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "AIR-EDGE"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "EudoraWeb"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Minimo Moblie"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Plucker Mobile"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "HP iPAQ"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "NEC Mobile"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Nintendo Wii"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Opera Mobile"
+msgstr "오페라 모바일"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "PalmSource"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Psion Mobile"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Sprint Mobile"
+msgstr ""
+
+# lib/functions.php:18
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "ibisBrowser Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Sky Phone"
+msgstr "스카이 폰"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "T-Mobile"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Safari Mobile"
+msgstr "사파리 모바일"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "IE Mobile"
+msgstr "IE 모바일"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "HTC Mobile"
+msgstr "HTC 모바일"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "AvantGo"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:7
+msgid "Amazon Kindle"
+msgstr ""
+
+# lib/functions.php:21
+#: ../../wp-slimstat-ex/lang/lang-helper.php:10
+msgid "Miscellaneous Readers"
+msgstr "RSS 리더기"
+
+# lib/functions.php:21
+#: ../../wp-slimstat-ex/lang/lang-helper.php:10
+msgid "Miscellaneous Validators"
+msgstr "표준 검사기"
+
+# lib/functions.php:21
+#: ../../wp-slimstat-ex/lang/lang-helper.php:10
+msgid "Miscellaneous Downloaders"
+msgstr "다운로드 도구"
+
+#
+# ### Platforms
+#
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows 2000"
+msgstr "윈도우즈 2000"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows XP"
+msgstr "윈도우즈 XP"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows 2003"
+msgstr "윈도우즈 2003"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows Vista"
+msgstr "윈도우즈 Vista"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows NT"
+msgstr "윈도으즈 NT"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows 98"
+msgstr "윈도우즈 98"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows 95"
+msgstr "윈도우즈 95"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows 3.1"
+msgstr "윈도우즈 3.1"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows generic"
+msgstr "윈도우즈 계열"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Mac 68k"
+msgstr "맥 68k"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Mac OS X"
+msgstr "맥 OS X"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Mac PPC"
+msgstr "맥 PPC"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Mac"
+msgstr "매킨토시"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "OS/2"
+msgstr "OS/2"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Sun OS"
+msgstr "썬 OS"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Unix Irix"
+msgstr "Unix Irix"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "HP Unix"
+msgstr "HP 유닉스"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Aix"
+msgstr "Aix"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Dec Alpha"
+msgstr "Dec Alpha"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Vax"
+msgstr "Vax"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Linux"
+msgstr "리눅스"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Free BSD"
+msgstr "Free BSD"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Intel Mac"
+msgstr "인텔 맥"
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "AmigaOS"
+msgstr ""
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "C-64"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows XP 64bit"
+msgstr "윈도우즈 XP 64비트"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows ME"
+msgstr "윈도우즈 ME"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows NT 4.0"
+msgstr "윈도으즈 NT 4"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "RISC OS"
+msgstr ""
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Debian GNU/Linux"
+msgstr ""
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Mandrake Linux"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "SuSE Linux"
+msgstr ""
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Novell Linux"
+msgstr ""
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Ubuntu Linux"
+msgstr ""
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "RedHat Linux"
+msgstr ""
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Gentoo Linux"
+msgstr ""
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Fedora Linux"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "MEPIS Linux"
+msgstr ""
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Knoppix Linux"
+msgstr ""
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Slackware Linux"
+msgstr ""
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Xandros Linux"
+msgstr ""
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Kanotix Linux"
+msgstr ""
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "NetBSD"
+msgstr ""
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "OpenBSD"
+msgstr ""
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Generic Unix"
+msgstr ""
+
+# lib/functions.php:31
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "BeOS"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:14
+msgid "Windows 7"
+msgstr "윈도우즈 7"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Windows CE"
+msgstr "윈도우즈 CE"
+
+# lib/functions.php:34
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Microsoft PocketPC"
+msgstr ""
+
+# lib/functions.php:34
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Microsoft Smartphone"
+msgstr ""
+
+# lib/functions.php:34
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Palm OS"
+msgstr ""
+
+# lib/functions.php:34
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Qtopia"
+msgstr ""
+
+# lib/functions.php:34
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Linux Zaurus"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Symbian OS"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Linux WAP"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Windows Mobile"
+msgstr "윈도우즈 모바일"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:17
+msgid "Android"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-aa"
+msgstr "아파르어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ab"
+msgstr "압하스어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ae"
+msgstr "아베스탄어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-af"
+msgstr "아프카니스탄어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ak"
+msgstr "아칸어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-am"
+msgstr "암하라어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-an"
+msgstr "아라곤어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-anp"
+msgstr "Angika"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ar"
+msgstr "아라비아어(아랍어)"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-as"
+msgstr "아삼어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-av"
+msgstr "아바르어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ay"
+msgstr "아이마라어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-az"
+msgstr "아제르바이잔어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ba"
+msgstr "바시키르어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-be"
+msgstr "벨기에어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-bg"
+msgstr "불가리아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-bh"
+msgstr "비하리어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-bi"
+msgstr "비스라마어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-bm"
+msgstr "밤바라어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-bn"
+msgstr "벵골어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-bo"
+msgstr "티베트어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-br"
+msgstr "브르타뉴어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-bs"
+msgstr "보스니아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ca"
+msgstr "카탈로니아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ce"
+msgstr "체첸어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ch"
+msgstr "차모로어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-co"
+msgstr "코르시카어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-cr"
+msgstr "크리어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-cs"
+msgstr "체코어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-cu"
+msgstr "교회슬라브어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-cv"
+msgstr "추바시어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-cy"
+msgstr "웨일스어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-da"
+msgstr "덴마크어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-de"
+msgstr "독일어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-dv"
+msgstr "디베히어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-dz"
+msgstr "종카어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ee"
+msgstr "에웨어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-el"
+msgstr "그리스어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-en"
+msgstr "영어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-eo"
+msgstr "에스페란토어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-es"
+msgstr "스페인어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-et"
+msgstr "에스토니아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-eu"
+msgstr "바스크어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-fa"
+msgstr "페르시아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ff"
+msgstr "풀라어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-fi"
+msgstr "핀란드어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-fj"
+msgstr "피지어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-fo"
+msgstr "페로 어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-fr"
+msgstr "프랑스어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-frr"
+msgstr "북프리시아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-fy"
+msgstr "프리시아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ga"
+msgstr "아일랜드어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-gd"
+msgstr "게일어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-gl"
+msgstr "갈리시아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-gn"
+msgstr "과라니어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-gu"
+msgstr "구자라트어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-gv"
+msgstr "맨어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ha"
+msgstr "하우사어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-he"
+msgstr "헤브라이어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-hi"
+msgstr "힌디 말(인도 공용어 중의 하나)"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ho"
+msgstr "히리모투어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-hr"
+msgstr "크로아티아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ht"
+msgstr "아이티어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-hu"
+msgstr "헝가리어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-hy"
+msgstr "아르메니아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-hz"
+msgstr "헤레로어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ia"
+msgstr "인테르링구아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-id"
+msgstr "인도네시아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ie"
+msgstr "인테르링구에"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ig"
+msgstr "이그보어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ii"
+msgstr "쓰촨이어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ik"
+msgstr "이누피아크어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-in"
+msgstr "인도네시아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-io"
+msgstr "이도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-is"
+msgstr "아이슬란드 말"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-it"
+msgstr "이탈리아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-iu"
+msgstr "Inuktitut"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-iw"
+msgstr "Hebrew"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ja"
+msgstr "일본어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ji"
+msgstr "이디시어(중부 유럽의 유대인이 사용함).)"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-jv"
+msgstr "호주/인도네시아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-jw"
+msgstr "Javanese"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ka"
+msgstr "이베리아-코카시안어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-kg"
+msgstr "콩고어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ki"
+msgstr "키쿠유어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-kj"
+msgstr "Kwanyama"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-kk"
+msgstr "Kazakh"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-kl"
+msgstr "Greenlandic"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-km"
+msgstr "Khmer"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-kn"
+msgstr "Kannada"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ko"
+msgstr "한국어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-kr"
+msgstr "Kanuri"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ks"
+msgstr "Kashmiri"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ku"
+msgstr "Kurdish"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-kv"
+msgstr "Komi"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-kw"
+msgstr "Cornish"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ky"
+msgstr "Kirghiz"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-la"
+msgstr "Latin"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-lb"
+msgstr "Letzeburgesch"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-lg"
+msgstr "Ganda"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-li"
+msgstr "Limburgish"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ln"
+msgstr "Lingala"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-lo"
+msgstr "Lao"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-lt"
+msgstr "리투아니아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-lu"
+msgstr "Luba-Katanga"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-lv"
+msgstr "라트비아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-mg"
+msgstr "Malagasy"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-mh"
+msgstr "Marshallese"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-mi"
+msgstr "Maori"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-mk"
+msgstr "마케도니아의 슬라브어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ml"
+msgstr "Malayalam"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-mn"
+msgstr "Mongolian"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-mo"
+msgstr "Moldavian"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-mr"
+msgstr "Marathi"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ms"
+msgstr "말레이시아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-mt"
+msgstr "몰타어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-my"
+msgstr "Burmese"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-na"
+msgstr "Nauru"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-nb"
+msgstr "Norwegian Bokm&#xE5;l"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-nd"
+msgstr "Ndebele, North"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ne"
+msgstr "Nepali"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ng"
+msgstr "Ndonga"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-nl"
+msgstr "네덜란드어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-nn"
+msgstr "Norwegian Nynorsk"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-no"
+msgstr "노르웨이어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-nr"
+msgstr "Ndebele, South"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-nv"
+msgstr "Navajo"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ny"
+msgstr "Chichewa"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-oc"
+msgstr "Proven&#xE7;al"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-oj"
+msgstr "Ojibwa"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-om"
+msgstr "Oromo"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-or"
+msgstr "Oriya"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-os"
+msgstr "Ossetian"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-pa"
+msgstr "Punjabi"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-pi"
+msgstr "Pali"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-pl"
+msgstr "폴란드어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ps"
+msgstr "Pushto"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-pt"
+msgstr "포르투갈 말"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-qu"
+msgstr "Quechua"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-rm"
+msgstr "레토로맨스어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-rn"
+msgstr "Rundi"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ro"
+msgstr "루마니아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ru"
+msgstr "러시아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-rw"
+msgstr "Kinyarwanda"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sa"
+msgstr "Sanskrit"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sb"
+msgstr "세르비아 말"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sc"
+msgstr "Sardinian"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sd"
+msgstr "Sindhi"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-se"
+msgstr "Northern Sami"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sg"
+msgstr "Sango"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sh"
+msgstr "Serbo-Croatian"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-si"
+msgstr "Sinhalese"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sk"
+msgstr "슬로바키아말"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sl"
+msgstr "슬라브어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sm"
+msgstr "Samoan"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sn"
+msgstr "Shona"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-so"
+msgstr "Somali"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sq"
+msgstr "알바니아어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sr"
+msgstr "세르비아 말"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ss"
+msgstr "Swati"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-st"
+msgstr "Sotho, Southern"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-su"
+msgstr "Sundanese"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sv"
+msgstr "스웨던어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sw"
+msgstr "Swahili"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-sx"
+msgstr "Sutu"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ta"
+msgstr "Tamil"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-te"
+msgstr "Telugu"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-tg"
+msgstr "Tajik"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-th"
+msgstr "태국어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ti"
+msgstr "Tigrinya"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-tk"
+msgstr "Turkmen"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-tl"
+msgstr "Tagalog"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-tn"
+msgstr "츠와나 말(니제르 콩고 어족(語族)에 속한다.)"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-to"
+msgstr "Tonga (Tonga Islands)"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-tr"
+msgstr "터키어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ts"
+msgstr "Tsonga"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-tt"
+msgstr "Tatar"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-tw"
+msgstr "Twi"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ty"
+msgstr "Tahitian"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ug"
+msgstr "Uighur"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-uk"
+msgstr "우크라이나어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ur"
+msgstr "우르두어(인도·파키스탄의 회교도가 쓴다)"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-uz"
+msgstr "Uzbek"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-ve"
+msgstr "Venda"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-vi"
+msgstr "베트남어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-vo"
+msgstr "Volap&#xFC;k"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-wa"
+msgstr "Walloon"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-wo"
+msgstr "Wolof"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-xh"
+msgstr "코사족어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-yi"
+msgstr "Yiddish"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-yo"
+msgstr "Yoruba"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-za"
+msgstr "Zhuang"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-zh"
+msgstr "중국어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-zu"
+msgstr "줄루어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+#: ../../wp-slimstat-ex/lib/functions.php:47
+#: ../../wp-slimstat-ex/lib/functions.php:49
+msgid "l-"
+msgstr "알 수 없음"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-empty"
+msgstr "알 수 없음"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-*"
+msgstr "알 수 없음"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:20
+msgid "l-xx"
+msgstr "알 수 없음"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ad"
+msgstr "안도라공국"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ae"
+msgstr "아랍 에미리티 연합국"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-af"
+msgstr "아프가니스탄"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ag"
+msgstr "안티가 바부다"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ai"
+msgstr "앙귈라"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-al"
+msgstr "알바니아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-am"
+msgstr "아르메니아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-an"
+msgstr "네덜란드 열도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ao"
+msgstr "앙골라"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ap"
+msgstr "아시아/태평양"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-aq"
+msgstr "남극대륙"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ar"
+msgstr "아르헨티나"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-as"
+msgstr "사모아 공화국"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-at"
+msgstr "오스트리아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-au"
+msgstr "오스트레일리아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-aw"
+msgstr "아루바"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ax"
+msgstr "&#xC5;land Islands"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-az"
+msgstr "아르제르바이젠"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ba"
+msgstr "보스니아-헤르체고비나"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bb"
+msgstr "바베이도스"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bd"
+msgstr "방글라데시"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-be"
+msgstr "벨기에"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bf"
+msgstr "부르키나 파소"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bg"
+msgstr "불가리아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bh"
+msgstr "바레인"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bi"
+msgstr "부룬디"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bj"
+msgstr "베냉"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bl"
+msgstr "세인트 바데레미"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bm"
+msgstr "버뮤다 제도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bn"
+msgstr "브루나이"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bo"
+msgstr "볼리비아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-br"
+msgstr "브라질"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bs"
+msgstr "바하마 연방"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bt"
+msgstr "부탄"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bu"
+msgstr "Burma"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bv"
+msgstr "보빗군도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bw"
+msgstr "보츠와나"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-by"
+msgstr "벨로루시"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-bz"
+msgstr "벨리즈"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ca"
+msgstr "캐나다"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cc"
+msgstr "코스 군도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cd"
+msgstr "콩고민주공화국"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cf"
+msgstr "중앙아프리카"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cg"
+msgstr "콩고"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ch"
+msgstr "스위스"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ci"
+msgstr "코트디부아르"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ck"
+msgstr "쿡 아일랜드"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cl"
+msgstr "칠레"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cm"
+msgstr "카메룬"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cn"
+msgstr "중국"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-co"
+msgstr "콜롬비아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cr"
+msgstr "코스타리카"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cs"
+msgstr "구 체코슬로바키아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cu"
+msgstr "쿠바"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cv"
+msgstr "카보 베르데"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cx"
+msgstr "크리스마스 아일랜드"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cy"
+msgstr "사이프러스"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-cz"
+msgstr "체코공화국"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-dd"
+msgstr "German Democratic Republic"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-de"
+msgstr "독일"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-dj"
+msgstr "지부티"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-dk"
+msgstr "덴마크"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-dm"
+msgstr "도미니카"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-do"
+msgstr "도미니카 공화국"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-dz"
+msgstr "알제리"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ec"
+msgstr "에쿠아도르"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ee"
+msgstr "에스토니아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-eg"
+msgstr "이집트"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-eh"
+msgstr "서사하라"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-er"
+msgstr "에리트리아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-es"
+msgstr "스페인"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-et"
+msgstr "이디오피아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-eu"
+msgstr "유럽"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-fi"
+msgstr "핀란드"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-fj"
+msgstr "피지"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-fk"
+msgstr "포클랜드 군도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-fm"
+msgstr "마이크로네시아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-fo"
+msgstr "파로에 군도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-fr"
+msgstr "프랑스"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-fx"
+msgstr "프랑스 (European Territory)"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ga"
+msgstr "가봉"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gb"
+msgstr "영국"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gd"
+msgstr "그레나다"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ge"
+msgstr "그루지아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gf"
+msgstr "프랑스령 가이아나"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gg"
+msgstr "Guernsey"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gh"
+msgstr "가나"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gi"
+msgstr "지브랄타"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gl"
+msgstr "그리란드"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gm"
+msgstr "감비아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gn"
+msgstr "기니"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gp"
+msgstr "과델로프"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gq"
+msgstr "적도 기니"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gr"
+msgstr "그리스"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gs"
+msgstr "남조지아 & 남샌드위치 군도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gt"
+msgstr "과테말라"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gu"
+msgstr "미국령 괌"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gw"
+msgstr "기니비사우"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-gy"
+msgstr "가이아나"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-hk"
+msgstr "홍콩"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-hm"
+msgstr "허드 & 맥도날드 군도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-hn"
+msgstr "온두라스"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-hr"
+msgstr "크로아티아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ht"
+msgstr "아이티"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-hu"
+msgstr "헝가리"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-id"
+msgstr "인도네시아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ie"
+msgstr "아일랜드"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-il"
+msgstr "이스라엘"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-im"
+msgstr "Isle of Man"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-in"
+msgstr "인도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-io"
+msgstr "영국령 인도양"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-iq"
+msgstr "이라크"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ir"
+msgstr "이란"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-is"
+msgstr "아이슬란드"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-it"
+msgstr "이탈리아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-je"
+msgstr "Jersey"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-jm"
+msgstr "자메이카"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-jo"
+msgstr "요르단"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-jp"
+msgstr "일본"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ke"
+msgstr "케냐"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-kg"
+msgstr "키르기스"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-kh"
+msgstr "캄보디아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ki"
+msgstr "키리바티"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-km"
+msgstr "코모로스"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-kn"
+msgstr "세인트 키츠 네비스"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-kp"
+msgstr "북한"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-kr"
+msgstr "한국"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-kw"
+msgstr "쿠웨이트"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ky"
+msgstr "영국령 캐이맨 군도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-kz"
+msgstr "카자흐스탄"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-la"
+msgstr "라오스"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-lb"
+msgstr "레바논"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-lc"
+msgstr "세인트 루시아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-li"
+msgstr "리히텐슈타인"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-lk"
+msgstr "스리랑카"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-lr"
+msgstr "라이베리아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ls"
+msgstr "레소토"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-lt"
+msgstr "리투아니아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-lu"
+msgstr "룩셈부르그"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-lv"
+msgstr "라트비아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ly"
+msgstr "리비아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ma"
+msgstr "모로코"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mc"
+msgstr "모나코"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-md"
+msgstr "몰도바"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-me"
+msgstr "몬테네그로"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mf"
+msgstr "Saint Martin"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mg"
+msgstr "마다카스카르"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mh"
+msgstr "마샬군도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mk"
+msgstr "마세도니아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ml"
+msgstr "말리"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mm"
+msgstr "미얀마"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mn"
+msgstr "몽골"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mo"
+msgstr "모리셔스"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mp"
+msgstr "북마리아나 군도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mq"
+msgstr "마티니크"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mr"
+msgstr "모리타니"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ms"
+msgstr "몬트세라트"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mt"
+msgstr "몰타"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mu"
+msgstr "모리셔스"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mv"
+msgstr "몰디브"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mw"
+msgstr "말라위"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mx"
+msgstr "멕시코"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-my"
+msgstr "말레지아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-mz"
+msgstr "모잠비크"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-na"
+msgstr "나미비아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-nc"
+msgstr "뉴 칼레도니아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ne"
+msgstr "니제르"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-nf"
+msgstr "노폴크 아일랜드"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ng"
+msgstr "나이지리아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ni"
+msgstr "니카라과"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-nl"
+msgstr "네덜란드"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-no"
+msgstr "노르웨이"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-np"
+msgstr "네팔"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-nr"
+msgstr "나우르"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-nt"
+msgstr "Neutral Zone"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-nu"
+msgstr "니우에"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-nz"
+msgstr "뉴질랜드"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-om"
+msgstr "오만"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pa"
+msgstr "파나마"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pe"
+msgstr "페루"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pf"
+msgstr "프랑스령 폴리네시아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pg"
+msgstr "파푸아 뉴기니"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ph"
+msgstr "필리핀"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pk"
+msgstr "파키스탄"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pl"
+msgstr "폴란드"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pm"
+msgstr "세인트 피레 미켈론"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pn"
+msgstr "피트카이른"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pr"
+msgstr "푸에르토리코"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ps"
+msgstr "팔레스타인"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pt"
+msgstr "포루투갈"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-pw"
+msgstr "팔라우"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-py"
+msgstr "파라과이"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-qa"
+msgstr "카타르"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-qm..qz"
+msgstr "Personal Use"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-re"
+msgstr "프랑스령 리유니온,코모도 제도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ro"
+msgstr "루마니아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-rs"
+msgstr "세르비아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ru"
+msgstr "러시아 연방"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-rw"
+msgstr "루안다"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sa"
+msgstr "사우디아라비아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sb"
+msgstr "솔로몬 군도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sc"
+msgstr "세이쉘"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sd"
+msgstr "수단"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-se"
+msgstr "스웨덴"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sg"
+msgstr "싱가포르"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sh"
+msgstr "세인트 헬레나"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-si"
+msgstr "슬로베니아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sj"
+msgstr "스발비드 군도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sk"
+msgstr "슬로바키아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sl"
+msgstr "시에라리온"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sm"
+msgstr "산마리노"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sn"
+msgstr "세네갈"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-so"
+msgstr "소말리아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sr"
+msgstr "수리남"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-st"
+msgstr "Sao Tome"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-su"
+msgstr "구 소련"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sv"
+msgstr "엘살바도르"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sy"
+msgstr "시리아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-sz"
+msgstr "스와질랜드"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tc"
+msgstr "투르크 & 카이코스 군도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-td"
+msgstr "챠드"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tf"
+msgstr "프랑스령 남부지역"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tg"
+msgstr "토고"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-th"
+msgstr "태국"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tj"
+msgstr "타지크"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tk"
+msgstr "토켈라우"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tl"
+msgstr "Timor-Leste"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tm"
+msgstr "투르크멘"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tn"
+msgstr "튀니지"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-to"
+msgstr "통가"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tp"
+msgstr "동티모르"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tr"
+msgstr "터키"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tt"
+msgstr "트리니다드 토바고"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tv"
+msgstr "투발루"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tw"
+msgstr "대만"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-tz"
+msgstr "탄자니아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ua"
+msgstr "우크라이나"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ug"
+msgstr "우간다"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-uk"
+msgstr "영국 연합"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-um"
+msgstr "마이너 아우틀링 합중국 군도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-us"
+msgstr "미합중국"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-uy"
+msgstr "우루과이"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-uz"
+msgstr "우즈베키스탄"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-va"
+msgstr "교황청"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-vc"
+msgstr "세인트 빈센트 그레나딘"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ve"
+msgstr "베네주엘라"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-vg"
+msgstr "영국령 버진군도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-vi"
+msgstr "미국령 버진군도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-vn"
+msgstr "베트남"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-vu"
+msgstr "바누아투"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-wf"
+msgstr "왈라스 & 퓨투나 군도"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ws"
+msgstr "사모아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-yd"
+msgstr "Yemen, Democratic"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-ye"
+msgstr "예맨"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-yt"
+msgstr "메요트"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-yu"
+msgstr "유고"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-za"
+msgstr "남아프리카"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-zm"
+msgstr "잠비아"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-zr"
+msgstr "자이레"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-zw"
+msgstr "짐바브웨"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+#: ../../wp-slimstat-ex/lib/functions.php:47
+msgid "c-"
+msgstr "알 수 없음"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-xx"
+msgstr "알 수 없음"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-a1"
+msgstr "공용 프락시"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-a2"
+msgstr "위성 접속"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:23
+msgid "c-o1"
+msgstr "알 수 없음"
+
+#
+# ## General Modules
+#
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+#: ../../wp-slimstat-ex/lib/display.php:31
+msgid "Summary"
+msgstr "요약"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Recent domains"
+msgstr "최근 도메인"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Recent search"
+msgstr "최근 검색어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "New domains"
+msgstr "새 도메인"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Recent resources"
+msgstr "최근 접속 페이지"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+msgid "Hourly hits"
+msgstr "시간별 통계"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+msgid "Daily hits"
+msgstr "일별 통계"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+msgid "Weekly hits"
+msgstr "주별 통계"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+msgid "Monthly hits"
+msgstr "월별 통계"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Top resources"
+msgstr "읽은 페이지 통계"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Top search"
+msgstr "검색어 통계"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+msgid "Top languages"
+msgstr "언어 통계"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Top domains"
+msgstr "도메인 통계"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Internally referred"
+msgstr "내부 방문 경로"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Internal search"
+msgstr "내부 검색어"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Top visitors"
+msgstr "방문객 통계"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Browser versions"
+msgstr "브라우저(버전별)"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Platforms"
+msgstr "운영체제"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Countries"
+msgstr "지역 통계"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Top referers"
+msgstr "리퍼러 통계"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Browsers"
+msgstr "브라우저"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:28
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Recent visitors"
+msgstr "최근 방문객"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Hourly"
+msgstr "시간별"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Daily"
+msgstr "일별"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Weekly"
+msgstr "주별"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Monthly"
+msgstr "월별"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:30
+msgid "Languages"
+msgstr "언어 통계"
+
+#
+# ## PINS
+#
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "Paths taken by recent visitors"
+msgstr "최근 방문객 이동 경로"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "Downloads"
+msgstr "다운로드"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "PathStats"
+msgstr "경로 추적"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "Recent downloads"
+msgstr "최근 다운로드"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "Top downloads"
+msgstr "다운로드 통계"
+
+# pins/BBSpamStats/pin.php:84
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "Method (protocol)"
+msgstr "접근방법 (프로토콜)"
+
+# pins/BBSpamStats/pin.php:85
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "Support Key"
+msgstr "Support Key"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "File name"
+msgstr "파일명"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "last"
+msgstr "최근"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "Downloaded from"
+msgstr "다운받은 페이지:"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:35
+msgid "Count"
+msgstr "횟수"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:38
+#: ../../wp-slimstat-ex/lib/modules.php:695
+#: ../../wp-slimstat-ex/lib/modules.php:729
+#: ../../wp-slimstat-ex/lib/modules.php:766
+#: ../../wp-slimstat-ex/lib/modules.php:924
+#: ../../wp-slimstat-ex/lib/modules.php:997
+msgid "Visits"
+msgstr "방문"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:38
+msgid "Uniques"
+msgstr "유니크"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[trackback]"
+msgstr "[엮인글]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[feed]"
+msgstr "[피드]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[tag]"
+msgstr "[태그]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[page]"
+msgstr "[쪽]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[post]"
+msgstr "[글]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[category]"
+msgstr "[분류]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[date]"
+msgstr "[날짜]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[search]"
+msgstr "[검색]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[author]"
+msgstr "[등록자]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[attachment]"
+msgstr "[첨부]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[paged]"
+msgstr "[쪽넘김]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[404 error]"
+msgstr "[404 에러]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[posts page]"
+msgstr "[글 모음 쪽]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[attachment comments]"
+msgstr "[첨부 댓글]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[post comments]"
+msgstr "[글 댓글]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[page comments]"
+msgstr "[쪽 댓글]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[comments]"
+msgstr "[댓글]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[comments popup]"
+msgstr "[댓글 팝업]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[external]"
+msgstr "[외부]"
+
+#: ../../wp-slimstat-ex/lang/lang-helper.php:41
+msgid "[taxonomy]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/display.php:32
+#: ../../wp-slimstat-ex/lib/functions.php:1281
+msgid "Feeds"
+msgstr "피드"
+
+#: ../../wp-slimstat-ex/lib/display.php:33
+#: ../../wp-slimstat-ex/lib/functions.php:1279
+msgid "Details"
+msgstr "자세히"
+
+#: ../../wp-slimstat-ex/lib/display.php:42
+msgid "SlimStat-Ex"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/display.php:59
+msgid "( Loading ... )"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/display.php:69
+#, php-format
+msgid "based on %1$s and %2$s"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/display.php:72
+msgid "Data size"
+msgstr "DB 크기"
+
+#: ../../wp-slimstat-ex/lib/display.php:73
+msgid "Feed"
+msgstr "피드"
+
+# /lib/pins.php:69
+#: ../../wp-slimstat-ex/lib/display.php:106
+#: ../../wp-slimstat-ex/lib/pins.php:80
+#, php-format
+msgid "This pin does not work with WP-SlimStat-Ex v<em>%s</em>"
+msgstr "이 핀은 WP-SlimStat-Ex v<em>%s</em>에서 작동하지 않습니다."
+
+# /wp-slimstat-ex-options.php:72
+#: ../../wp-slimstat-ex/lib/display.php:110
+msgid "Invalid Pin ID"
+msgstr "잘못된 Pin 아이디 입니다."
+
+# Unknown
+#: ../../wp-slimstat-ex/lib/functions.php:22
+#: ../../wp-slimstat-ex/lib/functions.php:34
+msgid "xx"
+msgstr "알 수 없음"
+
+#: ../../wp-slimstat-ex/lib/functions.php:267
+msgid "H:i"
+msgstr "H:i"
+
+#: ../../wp-slimstat-ex/lib/functions.php:267
+msgid "d M, H:i"
+msgstr "m/d, H:i"
+
+#: ../../wp-slimstat-ex/lib/functions.php:322
+#: ../../wp-slimstat-ex/lib/functions.php:393
+msgid "Invalid module name"
+msgstr "올바르지 않은 모듈 이름"
+
+#: ../../wp-slimstat-ex/lib/functions.php:381
+#: ../../wp-slimstat-ex/lib/functions.php:456
+msgid "No results found"
+msgstr "결과값이 없습니다"
+
+#: ../../wp-slimstat-ex/lib/functions.php:485
+msgid "Visit this resource"
+msgstr "읽은 페이지"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1012
+#: ../../wp-slimstat-ex/lib/pins.php:484
+msgid "Apply"
+msgstr "적용"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1019
+#: ../../wp-slimstat-ex/lib/pins.php:491
+msgid "Reset date range"
+msgstr "시간범위 필터 제거"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1019
+#: ../../wp-slimstat-ex/lib/functions.php:1046
+#: ../../wp-slimstat-ex/lib/functions.php:1085
+#: ../../wp-slimstat-ex/lib/pins.php:463
+#: ../../wp-slimstat-ex/lib/pins.php:491
+msgid "Reset"
+msgstr "초기화"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1034
+#: ../../wp-slimstat-ex/lib/modules.php:194
+#: ../../wp-slimstat-ex/lib/modules.php:257
+#: ../../wp-slimstat-ex/lib/modules.php:756
+#: ../../wp-slimstat-ex/lib/pins.php:424
+msgid "Domain"
+msgstr "도메인"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1035
+#: ../../wp-slimstat-ex/lib/modules.php:224
+#: ../../wp-slimstat-ex/lib/modules.php:684
+#: ../../wp-slimstat-ex/lib/modules.php:820
+#: ../../wp-slimstat-ex/lib/pins.php:428
+msgid "Search string"
+msgstr "검색어"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1036
+#: ../../wp-slimstat-ex/lib/modules.php:285
+#: ../../wp-slimstat-ex/lib/modules.php:651
+#: ../../wp-slimstat-ex/lib/modules.php:791
+#: ../../wp-slimstat-ex/lib/pins.php:432
+msgid "Resource"
+msgstr "읽은 글(페이지)"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1037
+#: ../../wp-slimstat-ex/lib/modules.php:1053
+#: ../../wp-slimstat-ex/lib/pins.php:436
+msgid "Remote IP"
+msgstr "방문객 주소"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1041
+msgid "Exact"
+msgstr "완전한 문자로"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1042
+msgid "Substring"
+msgstr "포함한 문자로"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1046
+#: ../../wp-slimstat-ex/lib/functions.php:1085
+#: ../../wp-slimstat-ex/lib/pins.php:463
+msgid "Reset filters"
+msgstr "검색 초기화"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1049
+msgid "Switch to table view"
+msgstr "테이블 보기로 전환"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1049
+msgid "Table view"
+msgstr "테이블 보기"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1051
+msgid "Switch to chart view"
+msgstr "차트 보기로 전환"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1051
+msgid "Chart view"
+msgstr "차트 보기"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1063
+#: ../../wp-slimstat-ex/lib/modules.php:883
+#: ../../wp-slimstat-ex/lib/modules.php:1019
+#: ../../wp-slimstat-ex/lib/pins.php:440
+msgid "Browser"
+msgstr "브라우저"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1067
+#: ../../wp-slimstat-ex/lib/modules.php:913
+#: ../../wp-slimstat-ex/lib/pins.php:444
+msgid "Platform"
+msgstr "운영체제"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1071
+#: ../../wp-slimstat-ex/lib/modules.php:951
+#: ../../wp-slimstat-ex/lib/pins.php:448
+msgid "Country"
+msgstr "나라"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1075
+#: ../../wp-slimstat-ex/lib/modules.php:718
+#: ../../wp-slimstat-ex/lib/pins.php:452
+msgid "Language"
+msgstr "언어"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1079
+msgid "Unkown"
+msgstr "알 수 없슴"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1138
+msgid "Reload this module"
+msgstr "이 모듈 새로고침"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1160
+#, php-format
+msgid "Show %s results"
+msgstr "%s 결과 보기"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1161
+msgid "previous"
+msgstr "이전"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1161
+msgid "next"
+msgstr "다음"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1268
+#, php-format
+msgid "Filter this on '%s' panel"
+msgstr "'%s' 패널에서 해당 검색 결과 보기"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1275
+msgid "unidentified"
+msgstr "미확인"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1277
+msgid "current"
+msgstr "현재"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1535
+msgid "]"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1535
+msgid "["
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/functions.php:1564
+#: ../../wp-slimstat-ex/lib/functions.php:1603
+#: ../../wp-slimstat-ex/lib/functions.php:1668
+msgid "[unusual]"
+msgstr "[불특정]"
+
+#
+# ## Guess Post Title
+#
+#: ../../wp-slimstat-ex/lib/functions.php:1575
+msgid "[home]"
+msgstr "[첫화면]"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1580
+msgid "[download]"
+msgstr "[내려받음]"
+
+#: ../../wp-slimstat-ex/lib/functions.php:1585
+msgid "[add comment]"
+msgstr "[댓글달기]"
+
+# lib/functions.php:780
+#: ../../wp-slimstat-ex/lib/functions.php:1590
+msgid "[schedule]"
+msgstr "[스케줄]"
+
+#: ../../wp-slimstat-ex/lib/modules.php:26
+#: ../../wp-slimstat-ex/lib/modules.php:200
+#: ../../wp-slimstat-ex/lib/modules.php:230
+#: ../../wp-slimstat-ex/lib/modules.php:262
+#: ../../wp-slimstat-ex/lib/modules.php:291
+#: ../../wp-slimstat-ex/lib/modules.php:662
+msgid "When"
+msgstr "언제"
+
+#: ../../wp-slimstat-ex/lib/modules.php:27
+#: ../../wp-slimstat-ex/lib/modules.php:331
+#: ../../wp-slimstat-ex/lib/modules.php:337
+#: ../../wp-slimstat-ex/lib/modules.php:408
+#: ../../wp-slimstat-ex/lib/modules.php:428
+#: ../../wp-slimstat-ex/lib/modules.php:492
+#: ../../wp-slimstat-ex/lib/modules.php:520
+#: ../../wp-slimstat-ex/lib/modules.php:576
+#: ../../wp-slimstat-ex/lib/modules.php:591
+#: ../../wp-slimstat-ex/lib/modules.php:657
+#: ../../wp-slimstat-ex/lib/modules.php:690
+#: ../../wp-slimstat-ex/lib/modules.php:724
+#: ../../wp-slimstat-ex/lib/modules.php:761
+#: ../../wp-slimstat-ex/lib/modules.php:796
+#: ../../wp-slimstat-ex/lib/modules.php:825
+#: ../../wp-slimstat-ex/lib/modules.php:854
+#: ../../wp-slimstat-ex/lib/modules.php:919
+#: ../../wp-slimstat-ex/lib/modules.php:992
+#: ../../wp-slimstat-ex/lib/modules.php:1059
+msgid "Hits"
+msgstr "읽음"
+
+#: ../../wp-slimstat-ex/lib/modules.php:55
+#: ../../wp-slimstat-ex/lib/pins.php:539
+msgid "Yesterday"
+msgstr "어제"
+
+#: ../../wp-slimstat-ex/lib/modules.php:74
+#: ../../wp-slimstat-ex/lib/pins.php:551
+msgid "This week"
+msgstr "이번 주"
+
+#: ../../wp-slimstat-ex/lib/modules.php:88
+#: ../../wp-slimstat-ex/lib/pins.php:558
+msgid "Last week"
+msgstr "지난 주"
+
+#: ../../wp-slimstat-ex/lib/modules.php:101
+#: ../../wp-slimstat-ex/lib/pins.php:569
+msgid "This month"
+msgstr "이번 달"
+
+#: ../../wp-slimstat-ex/lib/modules.php:115
+#: ../../wp-slimstat-ex/lib/pins.php:576
+msgid "Last month"
+msgstr "지난 달"
+
+#: ../../wp-slimstat-ex/lib/modules.php:129
+msgid "This year"
+msgstr "올해"
+
+#: ../../wp-slimstat-ex/lib/modules.php:143
+msgid "Last year"
+msgstr "내년"
+
+# Use PHP date format
+#: ../../wp-slimstat-ex/lib/modules.php:156
+msgid "j M Y, H:i"
+msgstr "Y/m/d , H:i"
+
+#: ../../wp-slimstat-ex/lib/modules.php:166
+msgid "Deleted stats"
+msgstr "삭제된 통계"
+
+#: ../../wp-slimstat-ex/lib/modules.php:166
+#: ../../wp-slimstat-ex/lib/modules.php:167
+#: ../../wp-slimstat-ex/lib/modules.php:433
+msgid "j M, Y"
+msgstr "Y/m/d"
+
+#: ../../wp-slimstat-ex/lib/modules.php:197
+#: ../../wp-slimstat-ex/lib/modules.php:259
+#: ../../wp-slimstat-ex/lib/modules.php:989
+msgid "Visit this referer"
+msgstr "방문객이 어느곳을 통해 왔는지를 확인합니다."
+
+#: ../../wp-slimstat-ex/lib/modules.php:330
+msgid "Hour"
+msgstr "시간"
+
+# /pins/GeoSlimStat/pin.php:464
+#: ../../wp-slimstat-ex/lib/modules.php:345
+msgid "M j, H:00"
+msgstr "M j, H:00"
+
+#: ../../wp-slimstat-ex/lib/modules.php:348
+msgid "M j, H:00 - H:59"
+msgstr "M j, H:00"
+
+#: ../../wp-slimstat-ex/lib/modules.php:407
+msgid "Day"
+msgstr "날짜"
+
+#: ../../wp-slimstat-ex/lib/modules.php:491
+msgid "Week"
+msgstr "주"
+
+#: ../../wp-slimstat-ex/lib/modules.php:524
+#: ../../wp-slimstat-ex/lib/modules.php:526
+msgid "j M ,Y"
+msgstr "Y, M j"
+
+#: ../../wp-slimstat-ex/lib/modules.php:575
+msgid "Month"
+msgstr "월"
+
+#: ../../wp-slimstat-ex/lib/modules.php:598
+msgid "M, Y"
+msgstr "Y, M"
+
+#: ../../wp-slimstat-ex/lib/modules.php:758
+msgid "Visit this domain"
+msgstr "리퍼러 방문"
+
+#: ../../wp-slimstat-ex/lib/modules.php:793
+msgid "Referred by"
+msgstr "참조위치 : "
+
+#: ../../wp-slimstat-ex/lib/modules.php:822
+msgid "Searched in"
+msgstr "~에서 검색됨"
+
+#: ../../wp-slimstat-ex/lib/modules.php:848
+msgid "Remote address"
+msgstr "방문객 주소"
+
+#: ../../wp-slimstat-ex/lib/modules.php:859
+#: ../../wp-slimstat-ex/lib/modules.php:888
+#: ../../wp-slimstat-ex/lib/modules.php:957
+#: ../../wp-slimstat-ex/lib/modules.php:1025
+msgid "%"
+msgstr "%"
+
+#: ../../wp-slimstat-ex/lib/modules.php:987
+msgid "Referer"
+msgstr "리퍼러"
+
+#: ../../wp-slimstat-ex/lib/modules.php:1064
+msgid "Last"
+msgstr "최근"
+
+# /lib/pins.php:45
+#: ../../wp-slimstat-ex/lib/pins.php:56
+msgid "There is no available option for this Pin"
+msgstr "이 Pin에는 따로 설정값이 없습니다."
+
+# /lib/pins.php:98
+#: ../../wp-slimstat-ex/lib/pins.php:109
+msgid "Options saved."
+msgstr "설정이 저장됨."
+
+# /lib/pins.php:391
+#: ../../wp-slimstat-ex/lib/pins.php:456
+msgid "Custom"
+msgstr "특정값"
+
+#: ../../wp-slimstat-ex/lib/pins.php:526
+msgid "Time interval"
+msgstr "시간 간격"
+
+#: ../../wp-slimstat-ex/lib/pins.php:531
+msgid "View stats for &#039;Today&#039;"
+msgstr "&#039;오늘&#039;에대한 결과보기"
+
+#: ../../wp-slimstat-ex/lib/pins.php:538
+msgid "View stats for &#039;Yesterday&#039;"
+msgstr "&#039;어제&#039;에대한 결과보기"
+
+#: ../../wp-slimstat-ex/lib/pins.php:550
+msgid "View stats for &#039;This week&#039;"
+msgstr "&#039;이번주&#039;에대한 결과보기"
+
+#: ../../wp-slimstat-ex/lib/pins.php:557
+msgid "View stats for &#039;Last week&#039;"
+msgstr "&#039;지난주&#039;에대한 결과보기"
+
+#: ../../wp-slimstat-ex/lib/pins.php:568
+msgid "View stats for &#039;This month&#039;"
+msgstr "&#039;이번달&#039;에대한 결과보기"
+
+#: ../../wp-slimstat-ex/lib/pins.php:575
+msgid "View stats for &#039;Last month&#039;"
+msgstr "&#039;지난달&#039;에대한 결과보기"
+
+#: ../../wp-slimstat-ex/lib/slimstat-ajax.php:63
+msgid "No ajax action provided"
+msgstr "AJAX 실행 내용이 주어지지 않았습니다."
+
+#: ../../wp-slimstat-ex/lib/update.php:20
+msgid "GeoIP data is at the latest version."
+msgstr "GeoIP 데이터 파일이 최신입니다."
+
+#: ../../wp-slimstat-ex/lib/update.php:21
+msgid "GeoIP data not available."
+msgstr "GeoIP 데이터 파일의 제공 서버에 접속할 수 없습니다."
+
+#: ../../wp-slimstat-ex/lib/update.php:22
+#, php-format
+msgid "Downloading update from <span class=\"code\">%s</span>."
+msgstr "<span class=\"code\">%s</span> 로부터 업데이트를 다운받는 중."
+
+#: ../../wp-slimstat-ex/lib/update.php:23
+msgid "Unpacking the update."
+msgstr "업데이트 파일을 푸는 중."
+
+#: ../../wp-slimstat-ex/lib/update.php:24
+msgid "Removing the old version of GeoIP data."
+msgstr "기존의 GeoIP 데이터 삭제중."
+
+#: ../../wp-slimstat-ex/lib/update.php:25
+msgid "Could not remove the old GeoIP data."
+msgstr "기존의 GeoIP 데이터를 삭제하지 못했습니다."
+
+#: ../../wp-slimstat-ex/lib/update.php:26
+msgid "GeoIP data upgrade Failed."
+msgstr "GeoIP 데이터를 업데이트 하지 못했습니다."
+
+#: ../../wp-slimstat-ex/lib/update.php:27
+msgid "GeoIP data upgraded successfully."
+msgstr "GeoIP 데이터 최신화에 성공했습니다."
+
+#: ../../wp-slimstat-ex/lib/update.php:28
+msgid "Destination file already exists."
+msgstr "대상 파일이 이미 존재합니다."
+
+#: ../../wp-slimstat-ex/lib/update.php:29
+msgid "Could not copy file."
+msgstr "파일을 복사하지 못했습니다."
+
+# /lib/upgrade.php:36
+#: ../../wp-slimstat-ex/lib/upgrade.php:36
+#, php-format
+msgid "Sub-Step %s"
+msgstr ""
+
+#: ../../wp-slimstat-ex/lib/upgrade.php:623
+#, php-format
+msgid "Upgrade from before %s"
+msgstr "%s 이전 버전에서의 판올림"
+
+# /lib/upgrade.php:374
+#: ../../wp-slimstat-ex/lib/upgrade.php:623
+#, php-format
+msgid "Failed to operate this sub-step(%s)"
+msgstr "이 Sub-Step(%s)이 제대로 진행되지 않았습니다."
+
+# /lib/upgrade.php:374
+#: ../../wp-slimstat-ex/lib/upgrade.php:623
+#, php-format
+msgid "Now we will do the next sub-step(%s)"
+msgstr "이제 다음 sub-step(%s)을 실행합니다."
+
+# /lib/upgrade.php:376
+#: ../../wp-slimstat-ex/lib/upgrade.php:625
+msgid "Start This Sub-Step"
+msgstr "이번 Sub-Step 실행"
+
+# /lib/upgrade.php:376
+#: ../../wp-slimstat-ex/lib/upgrade.php:625
+msgid "Do Over Again"
+msgstr "다시 실행하기"
+
+# /lib/upgrade.php:376
+#: ../../wp-slimstat-ex/lib/upgrade.php:625
+msgid "Do This Step"
+msgstr "이번 과정 실행"
+
+#: ../../wp-slimstat-ex/lib/~modules.php:331
+msgid "H:00 - H:59"
+msgstr "H:00 - H:59"
+
+#: ../../wp-slimstat-ex/lib/~modules.php:384
+msgid "j F, Y"
+msgstr "Y, F j"
+
+#: ../../wp-slimstat-ex/lib/~modules.php:484
+msgid "F Y"
+msgstr "Y, F"
+
+#: ../../wp-slimstat-ex/pins/BBSpamStats/pin.php:95
+#: ../../wp-slimstat-ex/pins/SSPathStats/pin.php:92
+msgid "Visitor"
+msgstr "방문객"
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:122
+#, php-format
+msgid "%1$s <em>%2$s</em> is only compatible with Wp-SlimStat-Ex <em>%3$s</em> and above."
+msgstr "%1$s <em>%2$s</em>은(는) Wp-SlimStat-Ex <em>%3$s</em> 이상에서만 작동합니다."
+
+# /pins/GeoSlimStat/pin.php:153
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:166
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:164
+msgid "Google Map API Key:"
+msgstr "구글 맵 API 키:"
+
+# /pins/GeoSlimStat/pin.php:154
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:167
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:165
+msgid "Enter your Google Maps API Key."
+msgstr "구글 맵 API 키를 입력하세요."
+
+# /pins/GeoSlimStat/pin.php:155
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:168
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:166
+msgid "You can get one at <a href=\"http://www.google.com/apis/maps/signup.html\" title=\"Sign up for a Google Maps API key\">HERE</a>"
+msgstr "키를 가지고 있지 않다면 <a href=\"http://www.google.com/apis/maps/signup.html\" title=\"Sign up for a Google Maps API key\">이 곳</a>에서 발급 받을 수 있습니다."
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:172
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:170
+msgid "Limit Quries:"
+msgstr "방문객 수:"
+
+# /pins/GeoSlimStat/pin.php:160
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:173
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:171
+msgid "The number of queries (try 30 first, then 50 or more)."
+msgstr "한번에 보여질 방문객 수 (30을 먼저 적용해 보고 무리가 없다면 그 이상을 적용)"
+
+# /pins/GeoSlimStat/pin.php:171
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:184
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:182
+msgid "Wheel Zoom:"
+msgstr "휠 줌:"
+
+# /pins/GeoSlimStat/pin.php:172
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:185
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:183
+msgid "Use mouse wheel to zoom map. You can use double click zoom without wheel zoom."
+msgstr "마우스 휠을 이용하여 맵을 확대,축소합니다. 휠을 이용하지 않아도 기본적으로 더블클릭을 이용해 확대,축소기능을 이용할 수 있습니다."
+
+# /pins/GeoSlimStat/pin.php:179
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:192
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:190
+msgid "Center Type:"
+msgstr "맵의 중앙:"
+
+# /pins/GeoSlimStat/pin.php:180
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:193
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:191
+msgid "Average point of visitors or custom point you set below (Latitude and Longitude)."
+msgstr "모든 방문객 위치의 평균값을 사용하거나 아래에서 지정한 특정 좌표를 사용 (위도, 경도)."
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:195
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:193
+msgid "Average point of visitors"
+msgstr "방문객 위치 평균값"
+
+# /pins/GeoSlimStat/pin.php:183
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:196
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:194
+msgid "Point I set below"
+msgstr "아래에 설정한 위치"
+
+# /pins/GeoSlimStat/pin.php:185
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:198
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:196
+msgid "Zoom:"
+msgstr "기본 확대값:"
+
+# /pins/GeoSlimStat/pin.php:188
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:201
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:199
+msgid "Starting Center:"
+msgstr "초기 중앙값:"
+
+# /pins/GeoSlimStat/pin.php:190
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:203
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:201
+msgid "Latitude:"
+msgstr "위도:"
+
+# /pins/GeoSlimStat/pin.php:191
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:204
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:202
+msgid "Longitude:"
+msgstr "경도:"
+
+# /pins/GeoSlimStat/pin.php:197
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:210
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:208
+msgid "Purge Negatives:"
+msgstr "알 수 없는 IP 목록 초기화:"
+
+# /pins/GeoSlimStat/pin.php:198
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:211
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:209
+msgid "When ip-to-geocode result from Hostip.info was empty, Geo SlimStat will append the IP to negative list."
+msgstr "Hostip.info서비스로부터의 ip-to-geocode 결과값이 비어있을 경우, Geo SlimStat은 해당 IP를 알수없는 IP 목록에 추가하게 됩니다."
+
+# /pins/GeoSlimStat/pin.php:199
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:212
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:210
+msgid "You can purge the negative list every xxx days (0 means no purge)"
+msgstr "아래 설정한 값을 통해 매 XXX일 마다 목록을 초기화 합니다 (초기화 하지 않으려면 0)"
+
+# pins/SSFreshView/pin.php:105
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:238
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:224
+#: ../../wp-slimstat-ex/pins/SSFreshView/pin.php:108
+msgid "Select Table"
+msgstr "테이블 선택"
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:241
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:227
+msgid "View map for &#039;common stats&#039;"
+msgstr "&#039;일반통계&#039;에대한 지도보기"
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:242
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:229
+#: ../../wp-slimstat-ex/pins/SSFreshView/pin.php:116
+msgid "Common"
+msgstr "일반"
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:245
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:232
+msgid "View map for &#039;feed stats&#039;"
+msgstr "&#039;피드통계&#039;에대한 지도보기"
+
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:644
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:631
+msgid "Unknown City"
+msgstr "Unkown City"
+
+# /pins/GeoSlimStat/pin.php:464
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:663
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/pin.php:734
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:650
+#: ../../wp-slimstat-ex/pins/GeoSlimStat/~pin.php:721
+msgid "F j, Y g:ia"
+msgstr "Y, F j g:ia"
+
+# /pins/SSBlogStats/pin.php:65
+#: ../../wp-slimstat-ex/pins/SSBlogStats/pin.php:66
+msgid "Use Content Filter:"
+msgstr "자동치환 사용:"
+
+# /pins/SSBlogStats/pin.php:66
+#: ../../wp-slimstat-ex/pins/SSBlogStats/pin.php:67
+msgid "Replace {SLIMSTAT|1,2,3...} on content with displayable modules."
+msgstr "본문의 {SLIMSTAT|1,2,3...} 을 해당 모듈로 치환하여 표시합니다."
+
+# /pins/SSBlogStats/pin.php:67
+#: ../../wp-slimstat-ex/pins/SSBlogStats/pin.php:68
+#, php-format
+msgid "Displayable modules are available at <a href=\"%s\">SlimStat-Admin page</a>."
+msgstr "출력 가능한 모듈들은 <a href=\"%s\">SlimStat-관리자 화면</a>에서 확인 할 수 있습니다."
+
+# /pins/SSBlogStats/pin.php:68
+#: ../../wp-slimstat-ex/pins/SSBlogStats/pin.php:69
+msgid "You can manually insert &lt;?php wpSSBlogStats(); ?&gt; on your template file"
+msgstr "자동 치환을 사용하지 않아도 테마의 템플릿 파일에 &lt;?php wpSSBlogStats(); ?&gt; 을 삽입하여 표시 할 수 있습니다."
+
+#: ../../wp-slimstat-ex/pins/SSBlogStats/pin.php:152
+msgid "Modules"
+msgstr "모듈 바로가기"
+
+#: ../../wp-slimstat-ex/pins/SSFreshView/pin.php:111
+msgid "View chart for &#039;All stats&#039;"
+msgstr "&#039;모든 통계&#039;에 대한 차트보기"
+
+#: ../../wp-slimstat-ex/pins/SSFreshView/pin.php:112
+msgid "All"
+msgstr "모두"
+
+#: ../../wp-slimstat-ex/pins/SSFreshView/pin.php:115
+msgid "View chart for &#039;common stats&#039;"
+msgstr "&#039;일반통계&#039;에대한 차트보기"
+
+#: ../../wp-slimstat-ex/pins/SSFreshView/pin.php:119
+msgid "View chart for &#039;feed stats&#039;"
+msgstr "&#039;피드통계&#039;에대한 차트보기"
+
+# /pins/SSFreshView_Print/pin.php:86
+#: ../../wp-slimstat-ex/pins/SSFreshView_Print/pin.php:86
+msgid "Module height"
+msgstr "모듈의 세로길이"
+
+#: ../../wp-slimstat-ex/pins/SSFreshView_Print/pin.php:89
+msgid "Stats interval"
+msgstr "통계 시간대"
+
+#: ../../wp-slimstat-ex/pins/SSFreshView_Print/pin.php:96
+msgid "Stats type"
+msgstr "통계 종류"
+
+#: ../../wp-slimstat-ex/pins/SSReaders_Count/pin.php:68
+msgid "Use Filter:"
+msgstr "자동치환 사용:"
+
+# /pins/SSReaders_Count/pin.php:69
+#: ../../wp-slimstat-ex/pins/SSReaders_Count/pin.php:69
+msgid "Select display position of readers count"
+msgstr "읽은 횟수를 표시할 위치를 선택합니다"
+
+# /pins/SSReaders_Count/pin.php:70
+#: ../../wp-slimstat-ex/pins/SSReaders_Count/pin.php:70
+msgid "You can manually insert &lt;?php wpss_print_post_reader_count(); ?&gt; on your template file"
+msgstr "NO를 선택하여도 테마의 템플릿 파일에 &lt;?php wpss_print_post_reader_count(); ?&gt;를 삽입하는 방법으로 표시할 수 있습니다."
+
+# /pins/SSReaders_Count/pin.php:118
+#: ../../wp-slimstat-ex/pins/SSReaders_Count/pin.php:118
+#, php-format
+msgid "This post was read %s times until now"
+msgstr "이 글은 %s 번 읽혀 졌습니다."
+
+#: ../../wp-slimstat-ex/pins/SSSimpleStats/pin.php:95
+msgid "Count Type:"
+msgstr "카운트 종류:"
+
+# /pins/SSSimpleStats/pin.php:96
+#: ../../wp-slimstat-ex/pins/SSSimpleStats/pin.php:96
+msgid "Select count type to display"
+msgstr "표시할 카운트 종류를 선택"
+
+#: ../../wp-slimstat-ex/pins/SSSimpleStats/pin.php:104
+msgid "Stats Type:"
+msgstr "통계 종류:"
+
+# /pins/SSSimpleStats/pin.php:105
+#: ../../wp-slimstat-ex/pins/SSSimpleStats/pin.php:105
+msgid "Select stats type to display"
+msgstr "표시할 통계 종류 선택"
+
+#: ../../wp-slimstat-ex/pins/SSSimpleStats/pin.php:113
+msgid "Display on meta:"
+msgstr "Meta에 출력:"
+
+# /pins/SSSimpleStats/pin.php:114
+#: ../../wp-slimstat-ex/pins/SSSimpleStats/pin.php:114
+msgid "Automatically display simple stats on wp_meta()"
+msgstr "wp_meta() 부분에 간단 통계를 자동으로 삽입"
+
+# /pins/SSSimpleStats/pin.php:115
+#: ../../wp-slimstat-ex/pins/SSSimpleStats/pin.php:115
+msgid "You can manually insert &lt;?php print_simple_hvu(); ?&gt; on your template file"
+msgstr "자동삽입을 사용하지 않아도 테마의 템플릿 파일에 &lt;?php print_simple_hvu(); ?&gt;를 삽입하는 방법으로 표시할 수 있습니다."
+
+#: ../../wp-slimstat-ex/pins/SSSimpleStats/pin.php:194
+msgid "Total"
+msgstr "전체"
+
+#~ msgid "You are using Mysql IPTC DB"
+#~ msgstr "현재 MySQL IPTC 데이터베이스를 사용중입니다."
+#~ msgid ""
+#~ "You can use GeoIP database(<a href=\"http://www.maxmind.com/app/"
+#~ "geoip_country\">GeoIP.dat</a> or <a href=\"http://www.maxmind.com/app/"
+#~ "geolitecity\">GeoLiteCity.dat</a>) from <a href=\"http://www.maxmind.com"
+#~ "\">MaxMind</a>."
+#~ msgstr ""
+#~ "<a href=\"http://www.maxmind.com\">MaxMind</a>에서 제공하는 GeoIP 데이터베"
+#~ "이스(<a href=\"http://www.maxmind.com/app/geoip_country\">GeoIP.dat</a> "
+#~ "or <a href=\"http://www.maxmind.com/app/geolitecity\">GeoLiteCity.dat</a>)"
+#~ "를 사용할 수도 있습니다."
+#~ msgid ""
+#~ "Upload GeoIP database(GeoIP.dat or GeoLiteCity.dat) file to <u>lib/geoip</"
+#~ "u> folder, that's all"
+#~ msgstr ""
+#~ "GeoIP 데이터베이스(GeoIP.dat or GeoLiteCity.dat) 파일을 <u>lib/geoip</u> "
+#~ "폴더에 업로드하면 됩니다."
+#~ msgid ")&quot; days old"
+#~ msgstr ")&quot;을 넘어가는 정보를 삭제"
+#~ msgid "Update ip-to-country database"
+#~ msgstr "국가정보(ip-to-country) DB 최신 유지"
+

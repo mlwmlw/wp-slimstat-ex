@@ -1,0 +1,213 @@
+Fresh View v1.03 by Kyle Rove
+
+================================================================================
+ Introduction to Fresh View for Mint (1.2+)
+--------------------------------------------------------------------------------
+Fresh View uses XML-based SVG (scalable vector graphics) to visualize your
+Mint visitor data. Although SVG as a standard has been around since 1999,
+browser makers are just getting around to implementing this standard natively.
+Currently, Opera is the only browser with shipping SVG. Mozilla has an SVG-
+capable version of Firefox in beta (Firefox 1.5 Beta 2) due for release soon.
+Safari for Mac OS X is the midst of gaining SVG support, but it is not clear how
+soon production release of an SVG-capable version will occur. Alternatively,
+users can download the Adobe SVG plugin:
+
+Windows:
+http://www.adobe.com/svg/viewer/install/beta.html
+http://plugindoc.mozdev.org/windows-all.html#AdobeSVG (how to install Adobe SVG
+plugin with Firefox 1.0.x)
+
+Mac OS X, *nix:
+http://www.adobe.com/svg/viewer/install/
+
+*** Note that Adobe SVG Plugin likes to cache files very persistently on the
+local hard drive. Sometimes to get graphs to update, you may need to either:
+  1. Refresh the entire page
+  2. Emtpy your browser cache, or
+  3. Restart your browser.
+
+Additionally, most web hosts do not currently have rules setup to correctly
+serve .svg files as XML. Users with Apache setups do not have to worry about
+this, as a .htaccess file with the correct rules exists in the
+/kylerove/freshview/caches/ directory. As I do not have access to other web
+servers (i.e. IIS), I cannot support Fresh View under these circumstances.
+Please use the Mint forum at http://www.haveamint.com/forum/ as a resource if
+you do not have Apache.
+
+Recommended Browser Setups to View Fresh View for Mint:
+Firefox 1.5 Beta 2 (Windows, Mac OS X, *NIX)
+Firefox 1.0.6 with Adobe SVG Plugin v6 (Windows)
+Safari 1.3 or 2.0 with Adobe SVG Plugin v3 (Mac OS X)
+
+Current Known Issues
+- Due to the changing Pepper API, Fresh View is only compatible with Mint 1.2+!
+- Adobe SVG Plugin persistently caches SVG files on the local hard drive
+- Firefox 1.5 Beta 2 does not support the guassian blur filter and puts an error
+  in the JavaScript console; This error does not affect the ability to use Fresh
+  View
+
+================================================================================
+ Installing Fresh View
+--------------------------------------------------------------------------------
+If you have never installed Fresh View, follow these instructions:
+
+1. Upload the /kylerove/ directory and its contents to /mint/pepper/.
+
+2. Permissions: chmod 775 (or 777, in some web setups) the following items:
+
+        /mint/pepper/kylerove/freshview/caches
+        /mint/pepper/kylerove/freshview/caches/pastday_graph.svg
+        /mint/pepper/kylerove/freshview/caches/pastmonth_graph.svg
+        /mint/pepper/kylerove/freshview/caches/pastweek_graph.svg
+        /mint/pepper/kylerove/freshview/caches/pastyear_graph.svg
+
+3. Login to your Mint installation, and in the Preferences click "Install" under
+   Pepper.
+
+4. Click the Fresh View "Install" button. Click "Okay."
+
+================================================================================
+ Updating Fresh View
+--------------------------------------------------------------------------------
+If you are updating Fresh View, follow these instructions:
+
+1. Login to your Mint installation, and in the Preferences click on Fresh View
+   to see its preferences. Click "Uninstall."
+   
+2. Empty your browser caches to ensure that no old CSS or JS files remain of
+   the old version. If you are unsure how to do this, consult your browser's
+   Help system.
+
+3. Upload the directory /kylerove/ to your /mint/pepper/ directory, replacing
+   the existing files.
+
+4. Permissions: chmod 775 (or 777, in some web setups) the following items:
+
+        /mint/pepper/kylerove/freshview/caches
+        /mint/pepper/kylerove/freshview/caches/pastday_graph.svg
+        /mint/pepper/kylerove/freshview/caches/pastmonth_graph.svg
+        /mint/pepper/kylerove/freshview/caches/pastweek_graph.svg
+        /mint/pepper/kylerove/freshview/caches/pastyear_graph.svg
+
+5. Login to your Mint installation, and in the Preferences click "Install" under
+   Pepper.
+
+6. Click the Fresh View "Install" button. Click "Okay."
+
+================================================================================
+ More Info
+--------------------------------------------------------------------------------
+Please email kyle.rove@gmail.com with comments, bugs, or feature requests. THIS
+SOFTWARE IS PROVIDED AS IS.
+
+PayPal donations to my email address are most appreciated. (Support a poor
+medical student :-)
+
+Please visit me at: http://www.sensoryoutput.com/
+
+This work is licensed under the Creative Commons Attribution-ShareAlike License.
+To view a copy of this license, visit
+http://creativecommons.org/licenses/by-sa/2.0/ or send a letter to Creative
+Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.
+
+================================================================================
+ Change Log
+--------------------------------------------------------------------------------
+
+Change Log, v103
+- Fixed bug where 24HourTime preference was giving error (for real this time)
+
+Change Log, v102
+- Fixed bug where 24HourTime preference was giving error
+
+Change Log, v101
+- Initialized variables that were giving error notices (if turned on in PHP).
+- Added data check and error function if for some bizarre reason, the Default
+  Pepper data is not accessible or is malformed.
+
+Change Log, v100
+- Fresh View updated for new Mint 1.2+ Pepper API
+- Fresh View no longer considered beta!
+
+Change Log, v015
+- Fresh View now requires Mint 1.12+
+- Updated date parsing to match Mint v1.12 date functions, removing aberrant
+  September x-axis label
+
+Change Log, v014
+- Fixed cache preference entries so entries other than zero cache graphs
+- Added 24 hour time preference for the Past Day graph
+- Fixed WEEKEND text to not display when today is Sunday in Past Week graph
+
+Change Log, v013
+- Abstracted layout code into generateLayout() function
+- Fixed redundant code in date manipulation and x-axis generation
+- Removed getFormattedDate() calls as function returns unusable contextual dates
+  (Today, This month) that created more complexities in the code to work around
+- Altered Past Day template to use am and pm instead of 24 hour times
+- Added new task in update instructions for users to empty browser cache
+
+Change Log, v012
+- Fixed hard-coded path to css file in SVG graphs
+
+Change Log, v011
+- Updated _Read Me.txt to have correct paths to caches directory and files
+- Updated install() logic to check for Mint 1.1+
+- Resized graph to be optimized for 1024px width browser window
+- Increased font sizes by 1px across board in styles.css, per resized graphs
+- Abstracted (most) hard-coded coordinates to allow for graph layout changes
+- Moved legend below graph
+- Fixed hard-coded root directory, now uses proper getCfgValue('install_dir')
+- Default graphs all read zero, preventing user from seeing bogus data
+
+Change Log, v010
+- Altered styles.css to fix center alignment of Adobe SVG Plugin rendering o
+  tooltip text
+
+Change Log, v009
+- Fixed minor JavaScript error
+- Altered the backup HTML output if SVG graph cannot be viewed (lack of capable
+  browser or lack of Adobe SVG Plugin)
+
+Change Log, v008
+- Requires Mint v1.1
+- Added comments to the various functions in class.php
+- Fixed missing Weekend Highlights in Past Month graph
+- Fixed extra "WEEKEND" text for Past Week graph
+- Now uses Mint look for error display on install
+- Made tooltip wider to fit data points with lots of hits or uniques
+
+Change Log, v007
+- Added logic to only allow installation of plugin once permissions are adequate
+  on cache directory and files
+
+Change Log, v006
+- Added logic to ensure data is received from SI_DefaultPepper plugin
+- Removed unused %y-axis_lines% variable from the SVG templates
+- Fixed styles.css so that Adobe SVG Plugin does not report "Bad CSS Selector"
+- Fixed styles.css so that Adobe SVG Plugin properly centers X-axis labels
+
+Change Log, v005
+- Modified handling of Weekend Highlighting for Past Week and Past Month graphs
+  to no longer require a clipPath
+- Fixed onRecord() to return an empty array() to avoid empty rows in the
+  database
+- Updated _Read Me.txt
+
+Change Log, v004
+- Modified graphics for legend (removed bar on right)
+- Unified the two SQL queries for Past Month graph into one
+  (thanks to Colby Makowsky!)
+- Modified caching mechanism to be optional (all times set to 0)
+- Added _Read Me.txt
+
+Change Log, v003:
+- Fixed misplaced and blank SVG tooltip for unique data points on all graphs
+- Added logic to hide "WEEKEND" text when not fully visible on Past Week graph
+- Changed description on Past Month graph to "Reflects last 4 weeks"
+
+Change Log, v002:
+- Added .htaccess file to have Apache serve .svg files as xml
+
+Change Log, v001:
+- Initial release

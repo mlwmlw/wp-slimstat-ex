@@ -1,0 +1,259 @@
+/* BASIC STYLES
+------------------------------------------*/
+#wp_slimstat * {
+margin: 0;
+padding: 0;
+}
+#wp_slimstat * {
+font-family: Tahoma, Verdana, 'Lucida Grande', 'MS PGothic';
+font-size: 11px;
+}
+#wp_slimstat a { 
+color: #27552E; 
+text-decoration: none; 
+border: 0;
+}
+#wp_slimstat a:visited { 
+}
+#wp_slimstat a:hover { 
+color: #8aa54a; 
+text-decoration: none; 
+}
+
+/* MODULE STYLES
+------------------------------------------*/
+#wp_slimstat {
+text-align: center;
+}
+#wp_slimstat .module {
+text-align: justify;
+margin:15px auto;
+padding:0;
+width:85%;
+height: auto;
+border-bottom:1px solid #696969;
+}
+#wp_slimstat .module div.noresults-msg {/* no results found message */
+background-image: url('../../css/no-results.gif');
+background-position: 50% 100%;
+background-repeat: no-repeat;
+height: 50px;
+text-indent: -9999px;/* hide text */
+}
+#wp_slimstat .module div table .accent {
+background-color: #eee;
+border-bottom: 1px solid #ccc;
+color: #787878;
+}
+#wp_slimstat .module.wide, #wp_slimstat .module.full {
+width:100%;
+}
+#wp_slimstat .module div {
+overflow:auto;
+}
+#wp_slimstat .module div div {
+height: 314px;
+width:100%;
+overflow:visible;
+}
+#wp_slimstat .module div>div {
+height: auto;
+max-height: 415px;
+}
+#wp_slimstat .module h3 {
+padding:4px 2px;
+margin:0;
+font-weight:normal;
+color:#fff;
+background-color:#787878;
+border-top:4px solid #aeaeae;
+border-bottom:4px solid #aeaeae;
+position: relative;
+text-align: center;
+background-image: none;
+display: block;
+letter-spacing: 0px;
+line-height: 20px;
+font-size:12px;
+}
+
+#wp_slimstat .module h3 select {
+background-color: transparent;
+color: #fff;
+border-style: none;
+padding: 0 !important;
+list-style-type: inherit;
+height: 24px;
+width: 160px;
+}
+
+#wp_slimstat .module h3 option {
+background-color:#787878;
+color: #fff;
+}
+
+#wp_slimstat .module div table {
+border-left:1px dotted #dfdfdf;
+border-collapse: collapse;
+width:100%;
+height: auto;
+}
+#wp_slimstat .module div table th {
+text-align: left;
+white-space: nowrap;
+background-color: #dfdfdf;
+width:auto;
+padding: 1px 3px;
+color: #535353;
+}
+#wp_slimstat .module div table td {
+overflow: hidden;
+padding: 0 3px;
+height: 19px;
+vertical-align: middle;
+white-space: nowrap;
+border-bottom:1px solid #dfdfdf;
+}
+#wp_slimstat .module div>table td {
+height: 20px;
+}
+#wp_slimstat .module div table td.second,
+#wp_slimstat .module div table th.second {
+text-align: right;
+width:auto;
+padding-right: 2px;
+border-left:1px dotted #dfdfdf;
+border-right:1px dotted #dfdfdf;
+}
+#wp_slimstat .module div table td.third,
+#wp_slimstat .module div table th.third {
+text-align: right;
+width:auto;
+padding-right: 2px;
+white-space: nowrap;
+border-right:1px dotted #dfdfdf;
+}
+#wp_slimstat .module div table td.linkresource {
+width:2%;
+padding-right: 2px;
+white-space: nowrap;
+border-right:1px dotted #dfdfdf;
+}
+#wp_slimstat .module div table td.linkresource img {
+margin:0;
+padding:0;
+width: 9px;
+height: 9px;
+overflow: hidden;
+}
+#wp_slimstat .tbrow-alt {
+background-color: #F0F7E2;
+}
+#wp_slimstat tr.tbrow, #wp_slimstat tr.tbrow-alt {
+color: #404040;
+}
+#wp_slimstat p.module_nav {
+font-size: 11px;
+margin-top: 6px;
+margin-bottom: 0;
+text-align: center;
+}
+#wp_slimstat p.module_nav a {
+font-size: 11px;
+}
+#wp_slimstat .resource-type {
+color: gray;
+}
+
+/* Icons, Buttons
+------------------------------------------------------------------------------*/
+#wp_slimstat .module a.backtotop {
+position: absolute;
+right: 4px;
+width: 16px;
+height: 16px;
+overflow: hidden;
+background-image: url('../../css/top.gif');
+background-repeat: no-repeat;
+}
+#wp_slimstat .module span.reload {
+position: absolute;
+right: 20px;
+width: 16px;
+height: 16px;
+overflow: hidden;
+background-image: url('../../css/reload.gif');
+background-repeat: no-repeat;
+}
+#wp_slimstat .module>a.backtotop {
+background-image: url('../../css/top.png');
+right: 0;
+}
+#wp_slimstat .module h3>span.reload {
+background-image: url('../../css/reload.png');
+}
+#wp_slimstat .module .filter-link img {
+display: none;
+}
+/*#wp_slimstat .module .filter-link img {
+width: 16px;
+height: 16px;
+overflow: hidden;
+background-image: url('../../css/filter.gif');
+background-repeat: no-repeat;
+}
+#wp_slimstat .module td a.filter-link img.self {
+background-image: url('../../css/filter-self.gif');
+}
+#wp_slimstat .module td a.filter-link img.feed {
+background-image: url('../../css/filter-feed.gif');
+}*/
+#wp_slimstat img.icons {
+margin: 0;
+padding: 0;
+vertical-align: middle;
+}
+#wp_slimstat .module .collapsed-subcons{
+display:none;
+}
+#wp_slimstat .module .subcontgl img {
+width: 16px;
+height: 16px;
+background-position: 0 2px;
+background-image: url('../../css/collapseicon.gif');
+background-repeat: no-repeat;
+}
+#wp_slimstat .module .subcontgl.collapsed img{
+background-position: 0 -37px;
+}
+
+
+/* Ajax Loading
+------------------------------------------*/
+#wp_slimstat #slimloading {
+background-image: url('../../css/spinner.gif');
+background-position: left top;
+background-repeat: no-repeat;
+padding: 3px;
+padding-left: 20px;
+display: none;
+margin-left: 6px;
+color: #999;
+}
+#wp_slimstat .now_loading {
+background-image: url('now_loading.gif');
+background-position: 50% 100px;
+background-repeat: no-repeat;
+position: relative;
+/*height: 10%;*/
+min-height: 160px;
+}
+#wp_slimstat div.module {
+position: relative;
+}
+
+#wp_slimstat .module h3 span,
+#wp_slimstat .modulewide h3 span,
+#wp_slimstat p.module_nav span {
+cursor: pointer;
+}

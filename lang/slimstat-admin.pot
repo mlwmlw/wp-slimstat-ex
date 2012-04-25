@@ -1,0 +1,1196 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-17 05:17+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: 082net <082net@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ../lib/ss-admin\n"
+
+#: ../lib/ss-admin/admin.php:11
+msgid "Wp-SlimStat Admin Tool"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:12
+msgid "This tool helps you sum up old data and delete it"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:16
+msgid "You can not set \"dbmaxage\" to smaller than 0."
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:20
+msgid "Set \"<span style=\"color:blue;\">DB max-age</span>\" to a number greater than zero(0) on SlimStat option page"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:24
+#: ../lib/ss-admin/admin.php:143
+msgid "If you want to delete all SlimStat data more than"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:25
+msgid " days old \t( before"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:26
+msgid "), click the \"Next Step\" link below."
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:27
+#: ../lib/ss-admin/admin.php:123
+msgid "<strong>This CANNOT be undone.</strong> It is recommended that you save a recently-generated SlimStat report for posterity."
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:28
+#: ../lib/ss-admin/admin.php:58
+#: ../lib/ss-admin/admin.php:114
+#: ../lib/ss-admin/admin.php:174
+#: ../lib/ss-admin/admin.php:207
+#: ../lib/ss-admin/short2slim.php:59
+#: ../lib/ss-admin/short2slim.php:100
+#: ../lib/ss-admin/short2slim.php:145
+#: ../lib/ss-admin/short2slim.php:156
+#: ../lib/ss-admin/short2slim.php:215
+#: ../lib/ss-admin/short2slim.php:226
+#: ../lib/ss-admin/short2slim.php:284
+#: ../lib/ss-admin/short2slim.php:295
+#: ../lib/ss-admin/short2slim.php:338
+#: ../lib/ss-admin/short2slim.php:374
+#: ../lib/ss-admin/slim2ex.php:65
+#: ../lib/ss-admin/slim2ex.php:96
+#: ../lib/ss-admin/slim2ex.php:158
+#: ../lib/ss-admin/slim2ex.php:206
+#: ../lib/ss-admin/_functions.php:130
+#: ../lib/ss-admin/_functions.php:372
+#: ../lib/ss-admin/_functions.php:391
+msgid "Next Step"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:35
+#: ../lib/ss-admin/short2slim.php:33
+#: ../lib/ss-admin/slim2ex.php:44
+msgid "First Step"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:36
+msgid "First we need to sum up SlimStat data more than"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:37
+msgid "days old"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:38
+msgid "This step will not delete your data."
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:39
+msgid "If you want to sum up data only, <strong>just do this step 1</strong> and close your browser or back to your blog"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:45
+msgid "Ok, we optimized your SlimStat tables"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:46
+msgid "To start sum up your data, click the \"Start This Step &raquo;\" button below"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:49
+#: ../lib/ss-admin/admin.php:102
+#: ../lib/ss-admin/admin.php:130
+#: ../lib/ss-admin/admin.php:190
+#: ../lib/ss-admin/short2slim.php:49
+#: ../lib/ss-admin/short2slim.php:79
+#: ../lib/ss-admin/short2slim.php:117
+#: ../lib/ss-admin/short2slim.php:187
+#: ../lib/ss-admin/short2slim.php:257
+#: ../lib/ss-admin/short2slim.php:329
+#: ../lib/ss-admin/short2slim.php:355
+#: ../lib/ss-admin/slim2ex.php:56
+#: ../lib/ss-admin/slim2ex.php:177
+#: ../lib/ss-admin/slim2ex.php:197
+msgid "Start This Step"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:54
+msgid "If you can not see the \"<strong>Ok, done</strong>\" message(end of this page), <br />click browser's back button and \"Start This Step\" until you see the message"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:62
+msgid "Total stat data"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:63
+#: ../lib/ss-admin/admin.php:75
+#: ../lib/ss-admin/slim2ex.php:211
+msgid "inserted to dt table."
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:64
+msgid "Now, we will insert total dt data"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:68
+msgid "Insert Total Dt"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:74
+msgid "Normal stat data"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:76
+#: ../lib/ss-admin/slim2ex.php:212
+msgid "Now, we will insert data from feed table"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:80
+msgid "Insert Feed Dt"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:89
+#: ../lib/ss-admin/short2slim.php:67
+#: ../lib/ss-admin/slim2ex.php:72
+msgid "Second Step"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:90
+msgid "Now we will save hits, visits, uniques data more than"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:91
+msgid "days old to"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:92
+msgid "This step will not delete your data. But if you want to sum up data only, please <strong>DO NOT start this step</strong>."
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:93
+#: ../lib/ss-admin/admin.php:222
+#: ../lib/ss-admin/performance.php:35
+#: ../lib/ss-admin/performance.php:52
+#: ../lib/ss-admin/slim2ex.php:242
+#: ../lib/ss-admin/upgrade.php:14
+#: ../lib/ss-admin/upgrade.php:55
+msgid "Back to SlimStat Options"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:95
+msgid "Once started, Wp-Slimstat will treat saved hits, visits, uniques as deleted"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:99
+msgid "To save your summary, click the \"Start This Step &raquo;\" button below"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:113
+msgid "Old summary saved, now we will delete old data"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:121
+#: ../lib/ss-admin/short2slim.php:107
+#: ../lib/ss-admin/slim2ex.php:108
+msgid "Third Step"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:122
+msgid "Now, we will delete old data."
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:127
+#: ../lib/ss-admin/admin.php:187
+msgid "To delete old data, click the \"Start This Step &raquo;\" button below"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:135
+msgid "Old data more than"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:136
+msgid "days old will be deleted on this step"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:137
+msgid "If you can not see the \"Delete Finished\" message, click browser's back button and \"Delete\" again"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:144
+msgid " days old ( before"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:145
+msgid "you must confirm this decision below."
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:148
+msgid "I confirm deletion of all SlimStat data from before"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:150
+msgid "Delete"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:159
+msgid "Failed to delete old data(stats). Please"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:159
+#: ../lib/ss-admin/admin.php:168
+msgid "do this step again"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:161
+#: ../lib/ss-admin/admin.php:170
+msgid "entries deleted from stats table."
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:168
+msgid "Failed to delete old data(feed). Please"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:173
+msgid "Delete Finished"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:173
+msgid ", now we will remove unused resource data"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:182
+#: ../lib/ss-admin/slim2ex.php:167
+msgid "Fourth Step"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:183
+msgid "Now, we will delete useless resource data."
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:195
+msgid "Unused resource data will be removed from slimstat resouce table."
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:196
+msgid "You can <a href=\"admin.php?step=5\">SKIP</a> this step, if you want to keep unused resource data for perfomance and don't care about DB space."
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:198
+msgid "Connect to your phpmyadmin and execute query below by yourself"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:206
+msgid "When you've done, go to final step."
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:218
+msgid "All Steps Done"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:219
+msgid "SlimStat tables optimized successfully"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:220
+#: ../lib/ss-admin/slim2ex.php:240
+msgid "If you saw some errors, restore your backup data and start over this tool"
+msgstr ""
+
+#: ../lib/ss-admin/admin.php:221
+msgid "Now, go back to option page and \"<strong>enable</strong>\" tracking"
+msgstr ""
+
+#: ../lib/ss-admin/index.php:4
+msgid "Wp-SlimStat-Ex Admin Tool"
+msgstr ""
+
+#: ../lib/ss-admin/index.php:5
+msgid "First of all, go to \"<code>wp-admin &gt; SlimStat &gt; Global Options</code>\" <span class=\"red bold\">disable</span> tracking option"
+msgstr ""
+
+#: ../lib/ss-admin/index.php:6
+msgid "Delete Old Database"
+msgstr ""
+
+#: ../lib/ss-admin/index.php:7
+msgid "SlimStat Performance Tool"
+msgstr ""
+
+#: ../lib/ss-admin/index.php:9
+msgid "Update ip-to-country database"
+msgstr ""
+
+#: ../lib/ss-admin/index.php:13
+msgid "Display available modules"
+msgstr ""
+
+#: ../lib/ss-admin/index.php:14
+#: ../lib/ss-admin/modulelist.php:66
+msgid "Back to SlimStat option page"
+msgstr ""
+
+#: ../lib/ss-admin/modulelist.php:4
+msgid "Wp-SlimStat available modules"
+msgstr ""
+
+#: ../lib/ss-admin/modulelist.php:8
+#: ../lib/ss-admin/modulelist.php:17
+msgid "ID"
+msgstr ""
+
+#: ../lib/ss-admin/modulelist.php:9
+#: ../lib/ss-admin/modulelist.php:18
+msgid "Dependency"
+msgstr ""
+
+#: ../lib/ss-admin/modulelist.php:10
+#: ../lib/ss-admin/modulelist.php:19
+msgid "Class"
+msgstr ""
+
+#: ../lib/ss-admin/modulelist.php:11
+#: ../lib/ss-admin/modulelist.php:20
+msgid "Name"
+msgstr ""
+
+#: ../lib/ss-admin/modulelist.php:12
+#: ../lib/ss-admin/modulelist.php:21
+msgid "Description"
+msgstr ""
+
+#: ../lib/ss-admin/modulelist.php:32
+msgid "Core"
+msgstr ""
+
+#: ../lib/ss-admin/performance.php:3
+#: ../lib/ss-admin/_lang_helper.php:5
+msgid "add"
+msgstr ""
+
+#: ../lib/ss-admin/performance.php:3
+#: ../lib/ss-admin/_lang_helper.php:5
+msgid "remove"
+msgstr ""
+
+#: ../lib/ss-admin/performance.php:9
+msgid "Welcome to SlimStat Performance tool."
+msgstr ""
+
+#: ../lib/ss-admin/performance.php:10
+#: ../lib/ss-admin/short2slim.php:14
+#: ../lib/ss-admin/slim2ex.php:16
+#: ../lib/ss-admin/upgrade.php:16
+msgid "Before we start"
+msgstr ""
+
+#: ../lib/ss-admin/performance.php:12
+msgid "You better understand what you're going to do."
+msgstr ""
+
+#: ../lib/ss-admin/performance.php:13
+msgid "Adding index keys can increase performance of SlimStat, but you will need <span class=\"bold\">more storage</span> for stats mysql table"
+msgstr ""
+
+#: ../lib/ss-admin/performance.php:14
+msgid "Removing index keys can reduce your mysql db size, but SlimStat will <span class=\"bold\">work slowly</span>."
+msgstr ""
+
+#: ../lib/ss-admin/performance.php:16
+#: ../lib/ss-admin/performance.php:24
+msgid "Common Stats"
+msgstr ""
+
+#: ../lib/ss-admin/performance.php:17
+#: ../lib/ss-admin/performance.php:41
+msgid "Feed Stats"
+msgstr ""
+
+#: ../lib/ss-admin/performance.php:25
+msgid "Add or remove common-stats"
+msgstr ""
+
+#: ../lib/ss-admin/performance.php:25
+#: ../lib/ss-admin/performance.php:42
+msgid "index keys"
+msgstr ""
+
+#: ../lib/ss-admin/performance.php:31
+#: ../lib/ss-admin/performance.php:48
+msgid "Current DB size:"
+msgstr ""
+
+#: ../lib/ss-admin/performance.php:33
+msgid "Click <a href=\"performance.php?step=2\">HERE</a> to to add or remove index keys for feed table"
+msgstr ""
+
+#: ../lib/ss-admin/performance.php:42
+msgid "Add or remove feed-stats"
+msgstr ""
+
+#: ../lib/ss-admin/performance.php:50
+msgid "Click <a href=\"performance.php?step=1\">HERE</a> to to add or remove index keys for common table"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:7
+msgid "We could not found WP-ShortStat table. (Did you renamed it?)"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:13
+msgid "Welcome to SlimStat upgrade tool. (Upgrade from Wp-ShortStat) If you want to upgrade from Wp-SlimStat(0.92), use <a href=\"slim2ex.php\">slim2ex.php</a> file"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:16
+msgid "Deactivate Wp-ShortStat if activated"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:17
+#: ../lib/ss-admin/slim2ex.php:20
+msgid "<span style=\"color:red;font-size:14px;font-weight:bold;\">Backup</span> your"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:18
+#: ../lib/ss-admin/slim2ex.php:20
+msgid " table. "
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:19
+msgid "Delete or rename"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:20
+msgid "if you already have one with stats data."
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:21
+msgid "This tool will EMPTY your"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:22
+msgid "table if exists"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:23
+msgid "This tool dose not support merged upgrade (\"Wp-ShortStat\" and \"Wp-SlimStat\"). You must select one."
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:25
+msgid "To Upgrade Wp-ShortStat to Wp-SlimStat-EX, click \"Start Upgrade\" button below"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:26
+#: ../lib/ss-admin/slim2ex.php:35
+msgid "This tool dose not support Uninstallation<br />(This cannot be undone)"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:27
+#: ../lib/ss-admin/slim2ex.php:36
+msgid "Start Upgrade"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:34
+msgid "First of all, we need to add some new tables and columns"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:35
+msgid "Create tables"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:40
+msgid "create Feed table"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:41
+msgid "store feed(rss, atom) hits."
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:42
+msgid "create Pins table"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:43
+msgid "needed for plugable panels like PathStats."
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:44
+msgid "create dt table"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:45
+msgid "store hits, visits, uniques by time interval"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:57
+#: ../lib/ss-admin/slim2ex.php:63
+#: ../lib/ss-admin/slim2ex.php:156
+msgid "Done.... "
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:58
+#: ../lib/ss-admin/slim2ex.php:33
+#: ../lib/ss-admin/slim2ex.php:64
+#: ../lib/ss-admin/slim2ex.php:157
+#: ../lib/ss-admin/_functions.php:129
+msgid "Ok, now go to next step"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:68
+msgid "Before import ShorStat's data, we need to do something."
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:75
+msgid "Fisrt, we will add some needed columns and index keys"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:76
+msgid "Click \"Start This Step &raquo;\" button below"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:93
+msgid "maybe one or more columns are already exsits. have you done this step before?"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:94
+msgid "If so, you can skip this step. go to next step"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:98
+msgid "Done... "
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:99
+msgid "Columns and index keys added, <br />now we will convert country, platform, browser data"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:108
+msgid "Now, we will update country data (e.g. \"Republic Of Korea\" to \"ko\" )"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:112
+#: ../lib/ss-admin/short2slim.php:182
+#: ../lib/ss-admin/short2slim.php:252
+msgid "If you can not see the \"Next\" button during process, click browser's back button and \"Start This Step\" again"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:113
+#: ../lib/ss-admin/short2slim.php:183
+#: ../lib/ss-admin/short2slim.php:253
+#: ../lib/ss-admin/short2slim.php:325
+#: ../lib/ss-admin/slim2ex.php:174
+msgid "This may takes time depend on your database"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:114
+#: ../lib/ss-admin/short2slim.php:184
+#: ../lib/ss-admin/short2slim.php:254
+#: ../lib/ss-admin/short2slim.php:326
+#: ../lib/ss-admin/slim2ex.php:174
+msgid "size"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:143
+#: ../lib/ss-admin/short2slim.php:213
+#: ../lib/ss-admin/short2slim.php:282
+#: ../lib/ss-admin/_functions.php:370
+#: ../lib/ss-admin/_functions.php:376
+msgid "Update Finished"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:144
+msgid "country data converted, now we will convert platform data"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:153
+#: ../lib/ss-admin/short2slim.php:223
+#: ../lib/ss-admin/short2slim.php:292
+#: ../lib/ss-admin/_functions.php:388
+msgid "Data not found"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:154
+msgid "maybe you don't have country data and don't need to do this step"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:155
+msgid "go to next step, we will convert platform data"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:164
+msgid "NOTE: Please wait until \"Done\" message appear"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:165
+#: ../lib/ss-admin/short2slim.php:235
+#: ../lib/ss-admin/short2slim.php:304
+msgid "To start converting Click \"Next "
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:165
+#: ../lib/ss-admin/short2slim.php:235
+#: ../lib/ss-admin/short2slim.php:304
+#: ../lib/ss-admin/_functions.php:406
+msgid "\" button"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:165
+#: ../lib/ss-admin/short2slim.php:235
+#: ../lib/ss-admin/short2slim.php:304
+msgid "Ok, now we will convert database "
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:165
+#: ../lib/ss-admin/short2slim.php:235
+#: ../lib/ss-admin/short2slim.php:304
+#: ../lib/ss-admin/_functions.php:406
+msgid " lines"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:170
+#: ../lib/ss-admin/short2slim.php:309
+#: ../lib/ss-admin/_functions.php:412
+msgid "Next"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:178
+msgid "4th Step"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:179
+msgid "Now, we will update platform data (e.g. \"Windows XP\" to \"1\" )"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:210
+#: ../lib/ss-admin/short2slim.php:279
+msgid "Done, "
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:210
+#: ../lib/ss-admin/short2slim.php:279
+msgid " lines converted till now"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:214
+msgid "platform data converted, now we will convert browser data"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:224
+msgid "maybe you don't have platform data and don't need to do this step"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:225
+msgid "go to next step, we will convert browser data"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:234
+#: ../lib/ss-admin/short2slim.php:303
+#: ../lib/ss-admin/_functions.php:405
+msgid "NOTE: Please wait until \"Done, ....\" message appear"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:248
+#: ../lib/ss-admin/slim2ex.php:189
+msgid "5th Step"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:249
+msgid "Now, we will update browser data (e.g. \"Firefox\" to \"4\" )"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:283
+msgid "browser data converted, now we will import shortstat's data"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:293
+msgid "maybe you don't have browser data and don't need to do this step"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:294
+msgid "go to next step, we will import shortstat's data"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:317
+msgid "6th Step"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:318
+msgid "Now, we will import ShortStat's data"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:336
+msgid ".......Import Finished"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:337
+msgid "Now we will optimize SlimStat table"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:341
+msgid "<h2>There was some error with importing.</h2><p>please <a href=\"short2slim.php?step=6\">do this step again</a></p>"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:348
+msgid "7th Step"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:349
+msgid "Now, we need to optimize SlimStat's table"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:352
+msgid "To optimize table click the \"Start This Step &raquo;\" below"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:362
+msgid "Failed to optimize table"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:363
+msgid "Please <a href=\"short2slim.php?step=7\">do this step again</a>"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:370
+msgid "Table Optimized"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:371
+msgid "Now we'll go to SlimStat(0.92) upgrade tool's \"Second Step\""
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:372
+msgid "We made your"
+msgstr ""
+
+#: ../lib/ss-admin/short2slim.php:373
+msgid "table to Wp-SlimStat 0.92's condition<br />and remain steps are same as \"slim2ex\" steps"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:9
+msgid "There is no previous SlimStat table."
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:12
+msgid "Welcome to SlimStat upgrade tool. (Upgrade from Wp-SlimStat 0.92) <br />If you want to upgrade from Wp-ShortStat, use <a href=\"short2slim.php\">short2slim.php</a> file"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:18
+msgid "\"<strong>disable</strong>\" tracking option"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:19
+msgid "\"<strong>Deactivate</strong>\" your previous Wp-SlimStat(0.92)"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:21
+msgid "Click \"Check Tables &raquo;\" to check Wp-SlimStat-Ex tables"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:25
+msgid "Check Tables"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:34
+msgid "To Upgrade 0.92 to Wp-SlimStat-EX, click \"Start Upgrade\" button below"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:45
+msgid "Import previous SlimStat data"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:53
+msgid "Now, we will copy your previous SlimStat data to new SlimStat-Ex table"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:73
+#, php-format
+msgid "Now import <em>resource data</em> to \"%s\" table"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:75
+msgid "There is several sub-steps while importing <em>resource data</em>"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:76
+msgid "Each step may takes time depend on your DB size"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:77
+msgid "Please be patient while each step is on progress"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:78
+#: ../lib/ss-admin/upgrade.php:33
+msgid "If you can not see the \"Ok, done\" message (end of this page), <br />click browser's back button and \"Do This Step\" until you see the message"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:84
+msgid "You're on the progress for importing <em>resource data</em>"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:88
+msgid "Failed to import <em>resource data</em>"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:89
+msgid "Your <em>resource data</em> was not imported properly."
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:91
+#: ../lib/ss-admin/slim2ex.php:132
+#: ../lib/ss-admin/slim2ex.php:152
+#: ../lib/ss-admin/upgrade.php:49
+#: ../lib/ss-admin/_functions.php:840
+msgid "Do Over Again"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:93
+msgid "Import Complete"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:94
+msgid "Your <em>resource data</em> has been successfully imported!"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:109
+#, php-format
+msgid "Now import <em>Feed stats</em> on \"%1$s\" to \"%2$s\""
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:115
+msgid "Import Feed Data"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:129
+msgid "Failed to import <em>feed data</em>. Please do this step again."
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:135
+msgid "Data import success, now delete feed data from stats"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:136
+msgid " table."
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:137
+msgid "If any error occurred, click browser's back button and \"Delete Feed Data &raquo;\" again"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:140
+#, php-format
+msgid "Are you sure to delete feed data in %s?"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:140
+msgid "Delete Feed Data"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:149
+msgid "Failed to delete <em>feed data</em>. Please do this step again."
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:168
+msgid "Now insert \"visit\" data. this may takes time depend on your stats DB size."
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:169
+msgid "If you can not see the \"Next\" button or MYSQL error occur during process, <br />click browser's back button and \"Next 20000\" again"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:170
+msgid "It takes about 40(sec) for every \"Next 20000\""
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:190
+msgid "Now we will insert \"dt\" data to"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:191
+msgid "this may takes time."
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:202
+msgid "If you can not see the \"Ok, done\" message (end of this page), <br />click browser's back button and \"Start This Step\" until you see the message"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:211
+msgid "Common stat data"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:216
+msgid "Get Feed Dt"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:238
+msgid "Needed Steps Done"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:239
+msgid "optimized"
+msgstr ""
+
+#: ../lib/ss-admin/slim2ex.php:241
+msgid "Now, go back to Slimstat option page and \"<strong>enable</strong>\" tracking option"
+msgstr ""
+
+#: ../lib/ss-admin/upgrade.php:11
+msgid "Welcome to SlimStat Upgrade tool."
+msgstr ""
+
+#: ../lib/ss-admin/upgrade.php:13
+msgid "You do not need to upgrade SlimStat"
+msgstr ""
+
+#: ../lib/ss-admin/upgrade.php:18
+msgid "Upgrade process may takes time depend on your DB size."
+msgstr ""
+
+#: ../lib/ss-admin/upgrade.php:19
+msgid "Please be patient for full upgrade process."
+msgstr ""
+
+#: ../lib/ss-admin/upgrade.php:21
+msgid "Do Upgrade"
+msgstr ""
+
+#: ../lib/ss-admin/upgrade.php:28
+msgid "Upgrade Steps"
+msgstr ""
+
+#: ../lib/ss-admin/upgrade.php:30
+msgid "There is several sub-steps while upgrading SlimStat-Ex"
+msgstr ""
+
+#: ../lib/ss-admin/upgrade.php:31
+msgid "Each step may takes times depend on your DB size"
+msgstr ""
+
+#: ../lib/ss-admin/upgrade.php:32
+msgid "Please be patient until each step is fully done"
+msgstr ""
+
+#: ../lib/ss-admin/upgrade.php:42
+#, php-format
+msgid "You're on the progress for upgrading SlimStat-Ex v<em>%1$s</em> to v<em>%2$s</em>"
+msgstr ""
+
+#: ../lib/ss-admin/upgrade.php:46
+msgid "Failed to upgrade SlimStat"
+msgstr ""
+
+#: ../lib/ss-admin/upgrade.php:47
+msgid "Your SlimStat-Ex was not upgraded properly."
+msgstr ""
+
+#: ../lib/ss-admin/upgrade.php:52
+msgid "Upgrade Complete"
+msgstr ""
+
+#: ../lib/ss-admin/upgrade.php:53
+msgid "Your SlimStat-Ex has been successfully upgraded!"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:75
+msgid "needed columns and index keys added, now convert platforms"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:80
+msgid "Convert Platforms"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:102
+msgid "platform conversion is complete. now convert browsers"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:107
+msgid "Convert browsers"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:128
+msgid "browser conversion is complete."
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:318
+msgid "The oldest entry in the database is from"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:319
+msgid "SlimStat is configured to delete data more than"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:319
+msgid "days old, or from before"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:320
+msgid "To delete more data, change <strong>DB max-age:</strong> on SlimStat option panel"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:371
+msgid "All visit data inserted, now we will insert dt(sum) data to dt table"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:377
+msgid "Visit data inserted, now we will insert visit data to feed table"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:381
+msgid "Insert Visit Data To Feed Table"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:389
+msgid "maybe you don't have any data and don't need to do this step"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:390
+msgid "go to next step, we will import feed data to feed table"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:395
+msgid "Inserting visit data to feed stats table"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:396
+msgid "Inserting visit data to common stats table"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:406
+msgid "To start insert visit data Click \"Next "
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:406
+msgid "Ok, now we will insert database "
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:497
+#: ../lib/ss-admin/_functions.php:498
+#: ../lib/ss-admin/_functions.php:499
+msgid "Related to almost modules. <strong>recommended</strong>."
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:500
+msgid "Top referers, Recent domains , Top domains , New domains"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:501
+msgid "Recent, Top search string module."
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:502
+msgid "Recent, Top, New domains module."
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:503
+msgid "Browser modules"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:504
+msgid "Platform module"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:505
+msgid "Language module"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:506
+msgid "Related to visit count modules"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:549
+msgid "Required values are not defined"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:563
+#, php-format
+msgid "\"%s\" key already exists"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:566
+#, php-format
+msgid "Failed to add \"%s\" index key."
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:567
+#, php-format
+msgid "\"%s\" index key successfully added"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:573
+#, php-format
+msgid "\"%s\" key does not exists"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:576
+#, php-format
+msgid "Failed to remove \"%s\" index key."
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:577
+#, php-format
+msgid "\"%s\" index key successfully removed"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:585
+#, php-format
+msgid "Failed to re-add \"%s\" index key."
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:586
+#, php-format
+msgid "\"%s\" index key successfully re-added"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:590
+msgid "job(add,remove,readd) is not defined"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:838
+msgid "Importing <em>resource data</em>"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:838
+#, php-format
+msgid "Failed to operate this sub-step(%s)"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:838
+#, php-format
+msgid "Now we will do the next sub-step(%s)"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:840
+msgid "Start This Sub-Step"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:840
+msgid "Do This Step"
+msgstr ""
+
+#: ../lib/ss-admin/_functions.php:902
+#, php-format
+msgid "Sub-Step %s"
+msgstr ""
+
+#: ../lib/ss-admin/_header.php:17
+msgid "Wp-SlimStat-Ex &rsaquo; "
+msgstr ""
+
+#: ../lib/ss-admin/_lang_helper.php:2
+msgid "Wp-SlimStat-Ex &rsaquo; Admin"
+msgstr ""
+
+#: ../lib/ss-admin/_lang_helper.php:2
+msgid "Wp-SlimStat-Ex &rsaquo; Upgrade"
+msgstr ""
+
+#: ../lib/ss-admin/_lang_helper.php:2
+msgid "Wp-SlimStat-Ex &rsaquo; Upgrade from Wp-ShortStat"
+msgstr ""
+
+#: ../lib/ss-admin/_lang_helper.php:2
+msgid "Wp-SlimStat-Ex &rsaquo; Upgrade from v0.92"
+msgstr ""
+

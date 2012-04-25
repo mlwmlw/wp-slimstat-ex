@@ -1,0 +1,18 @@
+*:first-child+html .wp_slimstat_wrap .module div.twrapper {
+overflow-y:auto; 
+overflow-x:hidden; 
+padding-right:16px;
+}
+
+* html .wp_slimstat_wrap ul.module-tabs a {
+/*display: inline;*/
+/*float: left;*/
+}
+
+.wp_slimstat_wrap ul.module-tabs li {
+float: left;
+}
+
+* html .wp_slimstat_wrap .page-navi{
+margin-top: 14px;
+}

@@ -1,0 +1,49 @@
+Change Log::
+v 2.1.2-mlwmlw
+	http://mlwmlw.org/tag/slimstat-ex/
+    Fixed newer version jQuery incompatible issue
+	Added Chrome and Chromium support
+Since v 1.4::
+	You can check the changes at http://trac.082net.com/log/wp-slimstat-ex?action=stop_on_copy&verbose=on		
+v 1.3::
+	Tried to include files only when needed.
+	Support more browsers.
+	Changed way to detect language(language-region).
+	Support browser's back button with ajax 
+		- powered by ajax.history.js by Siegfried Puchbauer <rails-spinoffs@lists.rubyonrails.org>
+	You can display some modules on page by inserting {SLIMSTAT} to content or wpSSBlogStats to page templates.
+	Now use prototype.js again.
+	Added "display available modules" on SlimStat-Admin.
+	Fixed small bugs.
+v 1.2::
+	Now use mootools.js(http://mootools.net)
+	Added utf-16le converting(for Korean)
+v 1.1:: 
+	Localized SlimStat-Admin
+	Fixed Download Manager Pin referer error
+	Changed external tracking method
+	Fixed importing Wp-ShortStat
+	Importing Wp-ShortStat now support search string
+v 1.0c::
+	Fixed mis-typed vist_type on option page
+v1.0a::
+	Fixed SSDL_Mgr pin bug
+	Fixed guess post title error with default permalink structure
+v1.0::
+	Added Performance tool to SlimStat-Ex-Admin
+	Added Disable AJAX option
+	Added time offset option :fix offet time between server and blog
+	Added manual remote ip filter option
+	Ability to track external PHP web tool on your server
+	Improved guess post title ability
+	Added wp_slimstat_ex::base (plugin file name related to plugins folder).
+	Open 'whois?' link to new sized window
+	Removed moo.fx.pack. (SmoothScroll(module anchor) function doesn't exists any more)
+	Modified codes for faster loading.(Wp-SlimStat-Ex is now more faster!)
+	Fixed time interval filter bug.
+	Pins::
+		Remove Pins from table which dose not exists
+		Added get_module_custom function for Pins
+		Added whois link to SpamStats, PathStats Pin
+		Added option to not show unblocked behavior(key:00000000) from SpamStats
+		Added page link(more results) to PathStats and SpamStats(currently does not work with filter)

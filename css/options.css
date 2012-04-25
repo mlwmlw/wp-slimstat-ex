@@ -1,0 +1,64 @@
+.wrap .widefat td span.input_checkbox {
+display: block;
+float: left;
+width: 15em;
+height: auto;
+margin-bottom: auto;
+background-color: #dddddd;
+padding: 2px 4px;
+margin: 2px 4px;
+text-align: center;
+}
+
+.wrap .widefat td span.input_checkbox_admin {
+color: #999;
+}
+
+.wrap h4 {
+font-size: 1em;
+color: #666;
+}
+
+.slimstat_code {
+padding:8px;
+margin:6px 0px;
+border:1px solid #c1da8f;
+background-color:#f1fbe3;
+/*color:#14568A;*/
+}
+
+.slimstat_code code {
+color:#666;
+}
+
+.slim_msg {
+background-color:#f1fbe3;
+border-color:#c1da8f;
+width:650px;
+text-align:center;
+}
+
+#pin_option_menu_bar {
+font-size:1.1em;
+padding:8px 10px;
+}
+
+#pin_option_menu_bar span {
+padding:2px;
+}
+
+.fontred {
+color:red;
+}
+
+.fontblue {
+color:blue;
+}
+
+.fontyell {
+color:yellow;
+}
+
+.fontgray {
+color:gray;
+}

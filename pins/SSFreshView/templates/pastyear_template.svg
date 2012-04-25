@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/SVG/DTD/svg10.dtd">
+<?xml-stylesheet href="%css_path%" type="text/css"?>
+<svg width="100%" height="100%" viewBox="0 0 %svg_w% %svg_h%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" onload="init(evt)">
+    <title>Fresh View for WP-SlimStat-Ex, Past Year</title>
+    <desc>Displays unique visitors and total hits during the past 12 months.</desc>
+    <script xlink:href="%js_path%"/>
+    <defs>
+        <g id="vertex">
+          <circle r="2.2" stroke-width="3.5" stroke="#7f7f7f" fill="#7f7f7f"/>
+          <circle r="2.2" stroke-width="2.0" stroke="#ffffff" fill="#ddf2c2"/>
+        </g>
+        <g id="y-line">
+            <path d="M0,0 H%y-line-template_x%" stroke-width="1" stroke="#676767"/>
+            <path d="M7,1 H%y-line-template_x%" stroke-width="1" stroke="#585858"/>
+        </g>
+        <filter id="shadow">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="1.5" result="blur"/>
+            <feOffset in="blur" dx="0" dy="0" result="OffsetBlurredAlpha"/>
+        </filter>
+    </defs>
+    <g id="graph_region">
+        <rect x="%graph_region_x%" y="%graph_region_y%" width="%graph_region_w%" height="%graph_region_h%" fill="#5f5f5f"/>
+        <path d="M%y-line-start_x%,%graph_region_y% H%graph_region_x2%" stroke-width="1" stroke="#585858"/>
+        <path d="M%y-line-start_x%,%graph_region_y2% H%graph_region_x2%" stroke-width="1" stroke="#585858"/>
+    </g>
+    <g id="y-axis">
+%y-axis%
+    </g>
+    <g id="x-axis">
+        <text x="%x-axis_jan%" y="%x-axis-label_y%">Jan</text>
+        <text x="%x-axis_feb%" y="%x-axis-label_y%">Feb</text>
+        <text x="%x-axis_mar%" y="%x-axis-label_y%">Mar</text>
+        <text x="%x-axis_apr%" y="%x-axis-label_y%">Apr</text>
+        <text x="%x-axis_may%" y="%x-axis-label_y%">May</text>
+        <text x="%x-axis_jun%" y="%x-axis-label_y%">Jun</text>
+        <text x="%x-axis_jul%" y="%x-axis-label_y%">Jul</text>
+        <text x="%x-axis_aug%" y="%x-axis-label_y%">Aug</text>
+        <text x="%x-axis_sep%" y="%x-axis-label_y%">Sep</text>
+        <text x="%x-axis_oct%" y="%x-axis-label_y%">Oct</text>
+        <text x="%x-axis_nov%" y="%x-axis-label_y%">Nov</text>
+        <text x="%x-axis_dec%" y="%x-axis-label_y%">Dec</text>
+    </g>
+    <g id="data_areas">
+        <path d="%data-area_1%" fill="#7b9f53" stroke="none"/>
+        <path d="%data-area_2%" fill="#ace56e" stroke="none"/>
+    </g>
+    <g id="data_lines">
+        <path d="%data-line_1%" fill="none" stroke="#e3f1cb" stroke-width="4"/>
+        <path d="%data-line_2%" fill="none" stroke="#e3f1cb" stroke-width="4"/>
+    </g>
+    <g id="data_marks" onmouseover="path_show(evt)" onmouseout="path_hide(evt)">
+%data-marks%
+    </g>
+    <g id="data_labels">
+%data-labels%
+    </g>
+    <g id="legend">
+        <rect x="%graph_region_x%" y="286" width="%graph_region_w%" height="19" fill="#ffffff"/>
+        <path d="M%graph_region_x%,286 H%graph_region_x2%" fill="none" stroke="#e3f1cb" stroke-width="1"/>
+        <path d="M%graph_region_x%,305 H%graph_region_x2%" fill="none" stroke="#e3f1cb" stroke-width="1"/>
+        <rect x="193" y="290" width="9" height="9" fill="#7b9f53"/>
+        <rect x="256" y="290" width="9" height="9" fill="#ace56e"/>
+        <text x="207" y="298">Total</text>
+        <text x="271" y="298">Unique</text>
+    </g>
+    <g id="tooltip" transform="translate(100,100)" visibility="hidden">
+        <rect id="tooltip_shadow" x="1" y="1" width="80" height="20" opacity="0.6" fill="#eeeeee" style="filter:url(#shadow)"/>
+        <rect id="tooltip_box" x="0" y="0" width="80" height="20" fill="#eeeeee" stroke-width="1" stroke="#cccccc"/>
+        <text id="tooltip_text" x="40" y="13">0 0</text>
+    </g>
+</svg>

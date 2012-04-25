@@ -1,0 +1,38 @@
+/* Fading Tooltips By Dustin Diaz*/
+
+body div#toolTip { 
+	position: absolute;
+	z-index: 1000;
+	_width: 250px;
+	background: #444;
+	border: 1px solid #9dd63c;
+	text-align: left;
+	padding: 6px;
+	min-width: 120px;
+	max-width: 270px;
+	min-height: 1em;
+	border-radius: 6px;
+	-khtml-border-radius: 6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius: 6px;
+	}
+
+body div#toolTip p { 
+	margin:0;
+	padding:0;
+	color:#fff;
+	font:12px/14px Verdana, Tahoma, Arial, sans-serif;
+	}
+
+body div#toolTip p em { 
+	display:block;
+	margin-top:3px;
+	color:#7aa62f;
+	font-style:normal;
+	font-weight:normal;
+	}
+
+body div#toolTip p em span { 
+	font-weight:bold;
+	color:#fff; 
+	}
